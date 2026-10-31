@@ -263,8 +263,8 @@ button:focus-visible, a:focus-visible { outline: 1px solid var(--ink); outline-o
 .project-cta p { margin: 0; font-family: var(--pixel); font-size: 10px; }
 .project-cta h3 { margin: 0; font-family: var(--serif); font-size: clamp(48px,6vw,96px); font-weight: 400; line-height: .92; letter-spacing: -.03em; }
 .lang-ru .project-cta h3 { line-height: .98; letter-spacing: -.015em; }
-.cta-button { display: inline-flex; align-items: center; gap: 14px; padding: 18px 28px 19px; border-radius: 999px; background: var(--lime); color: var(--ink); font-size: 20px; font-weight: 600; text-decoration: none; transition: background .2s ease, color .2s ease, transform .2s ease; }
-.cta-button:hover { background: var(--ink); color: var(--paper); transform: translateY(-2px); }
+.cta-button { display: inline-flex; align-items: center; gap: 14px; padding: 18px 28px 19px; border-radius: 999px; background: var(--ink); color: var(--paper); font-size: 20px; font-weight: 600; text-decoration: none; box-shadow: 6px 6px 0 var(--lime); transition: background .2s ease, color .2s ease, transform .2s ease, box-shadow .2s ease; }
+.cta-button:hover { background: var(--lime); color: var(--ink); box-shadow: 0 0 0 var(--lime); transform: translate(3px, 3px); }
 .project-cta small { font-family: var(--pixel); font-size: 11px; opacity: .7; }
 
 .project-lightbox { position: fixed; z-index: 200; inset: 0; display: grid; place-items: center; background: rgba(20,19,20,.96); color: var(--paper); backdrop-filter: blur(14px); }
