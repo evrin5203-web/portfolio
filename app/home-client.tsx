@@ -137,6 +137,34 @@ function assetPath(src: string) {
   return src.startsWith("/") ? `${basePath}${src}` : src;
 }
 
+const TELEGRAM = "phangelgelya";
+const ctaOptions: Array<{ categories: string[]; ru: string; en: string; serviceRu: string; serviceEn: string }> = [
+  { categories: ["packaging"], ru: "Заказать упаковку", en: "Order packaging design", serviceRu: "дизайн упаковки", serviceEn: "packaging design" },
+  { categories: ["branding", "identity", "logo"], ru: "Заказать брендинг", en: "Order brand identity", serviceRu: "брендинг", serviceEn: "brand identity" },
+  { categories: ["web"], ru: "Заказать сайт", en: "Order a website", serviceRu: "сайт", serviceEn: "a website" },
+  { categories: ["books"], ru: "Заказать дизайн книги", en: "Order book design", serviceRu: "дизайн книги", serviceEn: "book design" },
+  { categories: ["merch"], ru: "Заказать мерч", en: "Order merch design", serviceRu: "дизайн мерча", serviceEn: "merch design" },
+  { categories: ["event-design"], ru: "Заказать дизайн события", en: "Order event design", serviceRu: "дизайн мероприятия", serviceEn: "event design" },
+  { categories: ["social-media"], ru: "Заказать оформление соцсетей", en: "Order social media design", serviceRu: "оформление соцсетей", serviceEn: "social media design" },
+  { categories: ["product-design"], ru: "Заказать предметный дизайн", en: "Order product design", serviceRu: "предметный дизайн", serviceEn: "product design" },
+];
+
+function projectCta(project: Project, language: Language) {
+  const option = ctaOptions.find((item) => item.categories.some((id) => project.categories.includes(id)));
+  const label = option ? option[language] : language === "en" ? "Discuss a project" : "Обсудить проект";
+  const service = option ? (language === "en" ? option.serviceEn : option.serviceRu) : null;
+  const title = project.title[language];
+  const text = language === "en"
+    ? `Hi Angelina! I'd like to discuss ${service ?? "a project"}. I saw “${title}” in your portfolio.`
+    : `Привет, Ангелина! Хочу обсудить ${service ?? "проект"}. Понравился «${title}» в портфолио.`;
+  return { label, href: `https://t.me/${TELEGRAM}?text=${encodeURIComponent(text)}` };
+}
+
+function languageHref(language: Language) {
+  const hash = typeof window === "undefined" ? "" : window.location.hash;
+  return `${basePath}${language === "en" ? "/en/" : "/"}${hash}`;
+}
+
 function thumbnailFor(src: string) {
   return assetPath(src.replace(/^\/portfolio\//, "/portfolio-thumbs/").replace(/\.[^.]+$/, ".webp"));
 }
@@ -198,8 +226,8 @@ function ProjectMedia({ image, alt, eager = false }: { image: ProjectImage; alt:
   return <img src={assetPath(image.src)} width={image.width} height={image.height} alt={alt} loading={eager ? "eager" : "lazy"} decoding="async" />;
 }
 
-export default function Home() {
-  const [language, setLanguage] = useState<Language>("en");
+export default function Home({ initialLanguage = "ru" }: { initialLanguage?: Language }) {
+  const language = initialLanguage;
   const [camera, setCamera] = useState<Point>(START);
   const [viewport, setViewport] = useState({ width: 1440, height: 900 });
   const [dragging, setDragging] = useState(false);
@@ -324,6 +352,36 @@ export default function Home() {
     };
   }, []);
 
+  // Each project has its own link: …/portfolio/#rassol (RU) or …/portfolio/en/#rassol (EN).
+  const hashSynced = useRef(false);
+  useEffect(() => {
+    const openFromHash = (initial: boolean) => {
+      const id = decodeURIComponent(window.location.hash.replace(/^#/, ""));
+      const project = projects.find((item) => item.id === id);
+      if (project) {
+        if (initial) {
+          const point = { x: project.x, y: project.y };
+          targetRef.current = point;
+          cameraRef.current = point;
+        }
+        setPanel(null);
+        setActive(project);
+      } else if (!id) {
+        setActive(null);
+      }
+    };
+    openFromHash(true);
+    const onHashChange = () => openFromHash(false);
+    window.addEventListener("hashchange", onHashChange);
+    return () => window.removeEventListener("hashchange", onHashChange);
+  }, []);
+
+  useEffect(() => {
+    if (!hashSynced.current) { hashSynced.current = true; return; }
+    const url = `${window.location.pathname}${window.location.search}${active ? `#${active.id}` : ""}`;
+    if (url !== `${window.location.pathname}${window.location.search}${window.location.hash}`) window.history.replaceState(null, "", url);
+  }, [active]);
+
   useEffect(() => {
     const onKey = (event: KeyboardEvent) => {
       if (document.querySelector(".project-lightbox")) return;
@@ -400,8 +458,8 @@ export default function Home() {
           <button onClick={() => setPanel("about")}>{language === "en" ? "about" : "обо мне"}</button>
           <button className="contact-link" onClick={() => setPanel("contact")}>{language === "en" ? "contact" : "контакт"}</button>
           <span className="language-switch" aria-label="Language">
-            <button className={language === "ru" ? "is-active" : ""} onClick={() => setLanguage("ru")} aria-label="Русский">RU</button>
-            <button className={language === "en" ? "is-active" : ""} onClick={() => setLanguage("en")} aria-label="English">EN</button>
+            <a className={language === "ru" ? "is-active" : ""} href={`${basePath}/`} onClick={(event) => { event.preventDefault(); window.location.href = languageHref("ru"); }} aria-label="Русский" hrefLang="ru">RU</a>
+            <a className={language === "en" ? "is-active" : ""} href={`${basePath}/en/`} onClick={(event) => { event.preventDefault(); window.location.href = languageHref("en"); }} aria-label="English" hrefLang="en">EN</a>
           </span>
         </nav>
       </header>
@@ -459,6 +517,7 @@ function WorldTile({ left, oceanRows, language, onHover, onOpen }: {
         </h1>
         <p className="intro-line"><span>{language === "en" ? "And I’m somewhere here." : "И я где-то здесь."}</span></p>
         <strong>{language === "en" ? "Designer & art director · keep moving →" : "Дизайнер и арт-директор · Продолжай двигаться →"}</strong>
+        <span className="intro-services">{language === "en" ? "brand identity · packaging · lettering · posters · books" : "айдентика · упаковка · леттеринг · постеры · книги"}</span>
       </article>
 
       {projects.map((project) => (
@@ -628,6 +687,7 @@ function ProjectView({ project, language, onClose }: { project: Project; languag
         {project.liveUrl && <a className="source-link" href={project.liveUrl} target="_blank" rel="noreferrer">{language === "en" ? "Open live website ↗" : "Открыть сайт ↗"}</a>}
         {project.sourceUrl && <a className="source-link" href={project.sourceUrl} target="_blank" rel="noreferrer">{language === "en" ? "View original project ↗" : "Посмотреть исходный проект ↗"}</a>}
       </div>}
+      <ProjectCta project={project} language={language} />
       {lightboxIndex !== null && <div className="project-lightbox" role="dialog" aria-modal="true" aria-label={language === "en" ? "Project image viewer" : "Просмотр изображений проекта"} onClick={(event) => { if (event.target === event.currentTarget) setLightboxIndex(null); }}>
         <button type="button" className="lightbox-close" onClick={(event) => { event.preventDefault(); event.stopPropagation(); setLightboxIndex(null); }} aria-label={language === "en" ? "Close image viewer" : "Закрыть просмотр"}>{language === "en" ? "close ×" : "закрыть ×"}</button>
         <figure className="lightbox-media" onClick={(event) => event.stopPropagation()}>
@@ -636,5 +696,17 @@ function ProjectView({ project, language, onClose }: { project: Project; languag
         <span className="lightbox-counter">{String(lightboxIndex + 1).padStart(2, "0")} / {String(galleryImages.length).padStart(2, "0")}</span>
       </div>}
     </section>
+  );
+}
+
+function ProjectCta({ project, language }: { project: Project; language: Language }) {
+  const cta = projectCta(project, language);
+  return (
+    <aside className="project-cta">
+      <p>{language === "en" ? "NEXT PLACE / YOUR PROJECT" : "СЛЕДУЮЩАЯ ТОЧКА / ВАШ ПРОЕКТ"}</p>
+      <h3>{language === "en" ? "Want something like this?" : "Хотите что-то похожее?"}</h3>
+      <a className="cta-button" href={cta.href} target="_blank" rel="noreferrer">{cta.label} <span aria-hidden="true">→</span></a>
+      <small>Telegram @{TELEGRAM}</small>
+    </aside>
   );
 }
