@@ -457,6 +457,7 @@ export default function Home({ initialLanguage = "ru" }: { initialLanguage?: Lan
           <button onClick={() => setPanel("index")}>{language === "en" ? "index" : "индекс"} <sup>{projects.length}</sup></button>
           <button onClick={() => setPanel("about")}>{language === "en" ? "about" : "обо мне"}</button>
           <button className="contact-link" onClick={() => setPanel("contact")}>{language === "en" ? "contact" : "контакт"}</button>
+          <a className="hire-link" href={`https://t.me/${TELEGRAM}?text=${encodeURIComponent(language === "en" ? "Hi Angelina! I'd like to discuss a project." : "Привет, Ангелина! Хочу обсудить проект.")}`} target="_blank" rel="noreferrer">{language === "en" ? "hire me" : "заказать"}</a>
           <span className="language-switch" aria-label="Language">
             <a className={language === "ru" ? "is-active" : ""} href={`${basePath}/`} onClick={(event) => { event.preventDefault(); window.location.href = languageHref("ru"); }} aria-label="Русский" hrefLang="ru">RU</a>
             <a className={language === "en" ? "is-active" : ""} href={`${basePath}/en/`} onClick={(event) => { event.preventDefault(); window.location.href = languageHref("en"); }} aria-label="English" hrefLang="en">EN</a>
@@ -484,10 +485,11 @@ export default function Home({ initialLanguage = "ru" }: { initialLanguage?: Lan
         <img src={assetPath("/art/arrow.svg")} alt="" style={{ transform: `rotate(${arrowAngle}deg)` }} />
       </button>}
       <div className="coordinates" aria-hidden="true">X {Math.round(normalizedX).toString().padStart(4, "0")} · DEPTH {Math.max(0, Math.round(camera.y - HORIZON)).toString().padStart(4, "0")}</div>
+      {!active && !panel && <button className="mobile-projects" onClick={() => setPanel("index")}>{language === "en" ? "See all projects" : "Смотреть все проекты"} <span aria-hidden="true">↓</span></button>}
       <div className="movement-hint" aria-hidden="true"><span>DRAG · SCROLL · ARROWS</span><i>KEEP MOVING →</i></div>
 
-      {panel && <Panel type={panel} projects={projects} language={language} onClose={() => { setPanel(null); setHovered(null); }} onMove={moveTo} onOpen={(project) => { setPanel(null); setActive(project); }} onHover={setHovered} />}
-      {active && <ProjectView project={active} language={language} onClose={() => setActive(null)} />}
+      {panel && <Panel type={panel} projects={projects} language={language} onClose={() => { setPanel(null); setHovered(null); }} onOpen={(project) => { setPanel(null); setActive(project); }} onHover={setHovered} />}
+      {active && <ProjectView key={active.id} project={active} language={language} onClose={() => setActive(null)} onNavigate={setActive} />}
     </main>
   );
 }
@@ -567,19 +569,21 @@ function Cover({ project, language }: { project: Project; language: Language }) 
   );
 }
 
-function Panel({ type, projects, language, onClose, onMove, onOpen, onHover }: {
+function Panel({ type, projects, language, onClose, onOpen, onHover }: {
   type: "selected" | "index" | "about" | "contact";
   projects: Project[];
   language: Language;
   onClose: () => void;
-  onMove: (project: Project) => void;
   onOpen: (project: Project) => void;
   onHover: (project: Project | null) => void;
 }) {
   const [filter, setFilter] = useState("all");
+  const [query, setQuery] = useState("");
+  const [view, setView] = useState<"grid" | "list">("grid");
+  const needle = query.trim().toLowerCase();
   const list = type === "selected"
     ? projects.filter((project) => project.selected).sort((a, b) => selectedOrder.indexOf(a.id) - selectedOrder.indexOf(b.id))
-    : projects.filter((project) => filter === "all" || project.categories.includes(filter));
+    : projects.filter((project) => (filter === "all" || project.categories.includes(filter)) && (!needle || `${project.title.ru} ${project.title.en} ${project.description[language]} ${project.categories.map((id) => categoryLabel(id, language)).join(" ")}`.toLowerCase().includes(needle)));
   return (
     <aside className="panel" role="dialog" aria-modal="true">
       <button className="panel-close" onClick={onClose}>{language === "en" ? "close ×" : "закрыть ×"}</button>
@@ -593,7 +597,18 @@ function Panel({ type, projects, language, onClose, onMove, onOpen, onHover }: {
         <>
           <div className="panel-heading"><p>{language === "en" ? "ALL KNOWN TERRITORIES" : "ВСЕ ИЗВЕСТНЫЕ ТЕРРИТОРИИ"}</p><h2>{language === "en" ? "Index" : "Индекс"}</h2></div>
           <div className="filters"><button className={filter === "all" ? "is-active" : ""} onClick={() => setFilter("all")}>{language === "en" ? "All" : "Все"} <sup>{projects.length}</sup></button>{categories.map((category) => { const count = projects.filter((project) => project.categories.includes(category.id)).length; return count ? <button key={category.id} className={filter === category.id ? "is-active" : ""} onClick={() => setFilter(category.id)}>{category[language]} <sup>{count}</sup></button> : null; })}</div>
-          <div className="project-list">{list.length ? list.map((project) => <button key={project.id} onClick={() => onMove(project)} onPointerEnter={() => onHover(project)} onPointerLeave={() => onHover(null)} onFocus={() => onHover(project)} onBlur={() => onHover(null)}><span>{String(project.number).padStart(2, "0")}</span><strong>{project.title[language]}</strong><em>{project.categories.slice(0, 2).map((id) => categoryLabel(id, language)).join(" · ")}</em><i>{language === "en" ? "find →" : "найти →"}</i></button>) : <p className="empty-projects">{language === "en" ? "New territories are being prepared." : "Новые территории готовятся к появлению."}</p>}</div>
+          <div className="index-tools">
+            <input className="index-search" type="search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder={language === "en" ? "Search projects…" : "Поиск по проектам…"} aria-label={language === "en" ? "Search projects" : "Поиск по проектам"} />
+            <div className="view-switch" role="group" aria-label={language === "en" ? "View" : "Вид"}>
+              <button className={view === "grid" ? "is-active" : ""} onClick={() => setView("grid")}>{language === "en" ? "grid" : "сетка"}</button>
+              <button className={view === "list" ? "is-active" : ""} onClick={() => setView("list")}>{language === "en" ? "list" : "список"}</button>
+            </div>
+          </div>
+          {!list.length ? <p className="empty-projects">{language === "en" ? "Nothing found. Try another word or category." : "Ничего не нашлось. Попробуйте другое слово или категорию."}</p> : view === "grid" ? (
+            <div className="project-grid">{list.map((project) => <button key={project.id} onClick={() => onOpen(project)}><span className="project-grid-image"><img src={thumbnailFor(project.cover)} alt="" loading="lazy" decoding="async" /></span><span className="project-grid-meta">{project.categories.slice(0, 2).map((id) => categoryLabel(id, language)).join(" · ")}</span><strong>{project.title[language]}</strong></button>)}</div>
+          ) : (
+            <div className="project-list">{list.map((project) => <button key={project.id} onClick={() => onOpen(project)} onPointerEnter={() => onHover(project)} onPointerLeave={() => onHover(null)} onFocus={() => onHover(project)} onBlur={() => onHover(null)}><span>{String(project.number).padStart(2, "0")}</span><strong>{project.title[language]}</strong><em>{project.categories.slice(0, 2).map((id) => categoryLabel(id, language)).join(" · ")}</em><i>{language === "en" ? "open →" : "открыть →"}</i></button>)}</div>
+          )}
         </>
       )}
     </aside>
@@ -645,7 +660,11 @@ function SelectedShowcase({ projects, language, onOpen }: { projects: Project[];
   );
 }
 
-function ProjectView({ project, language, onClose }: { project: Project; language: Language; onClose: () => void }) {
+function ProjectView({ project, language, onClose, onNavigate }: { project: Project; language: Language; onClose: () => void; onNavigate: (project: Project) => void }) {
+  const ordered = useMemo(() => [...projects].sort((a, b) => a.number - b.number), []);
+  const position = ordered.findIndex((item) => item.id === project.id);
+  const previous = ordered[(position - 1 + ordered.length) % ordered.length];
+  const next = ordered[(position + 1) % ordered.length];
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
   const galleryImages = useMemo(() => project.images.filter((image) => image.src !== project.cover), [project.cover, project.images]);
   const galleryRows = useMemo(() => buildGalleryRows(galleryImages), [galleryImages]);
@@ -688,6 +707,10 @@ function ProjectView({ project, language, onClose }: { project: Project; languag
         {project.sourceUrl && <a className="source-link" href={project.sourceUrl} target="_blank" rel="noreferrer">{language === "en" ? "View original project ↗" : "Посмотреть исходный проект ↗"}</a>}
       </div>}
       <ProjectCta project={project} language={language} />
+      <nav className="project-pager" aria-label={language === "en" ? "More projects" : "Другие проекты"}>
+        <button onClick={() => onNavigate(previous)}><small>{language === "en" ? "← previous" : "← предыдущий"}</small><strong>{previous.title[language]}</strong></button>
+        <button onClick={() => onNavigate(next)}><small>{language === "en" ? "next →" : "следующий →"}</small><strong>{next.title[language]}</strong></button>
+      </nav>
       {lightboxIndex !== null && <div className="project-lightbox" role="dialog" aria-modal="true" aria-label={language === "en" ? "Project image viewer" : "Просмотр изображений проекта"} onClick={(event) => { if (event.target === event.currentTarget) setLightboxIndex(null); }}>
         <button type="button" className="lightbox-close" onClick={(event) => { event.preventDefault(); event.stopPropagation(); setLightboxIndex(null); }} aria-label={language === "en" ? "Close image viewer" : "Закрыть просмотр"}>{language === "en" ? "close ×" : "закрыть ×"}</button>
         <figure className="lightbox-media" onClick={(event) => event.stopPropagation()}>

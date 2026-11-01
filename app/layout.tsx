@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import "@fontsource/cormorant-garamond/cyrillic-400.css";
-import "@fontsource/cormorant-garamond/latin-400.css";
+import "@fontsource/bona-nova/cyrillic-400.css";
+import "@fontsource/bona-nova/latin-400.css";
 import "@fontsource/roboto-condensed/cyrillic-400.css";
 import "@fontsource/roboto-condensed/cyrillic-600.css";
 import "@fontsource/roboto-condensed/latin-400.css";
