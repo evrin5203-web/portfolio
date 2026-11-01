@@ -1,0 +1,56 @@
+{
+  "_comment": "Импорт картинок из портфолио ВШЭ (hsedesign.ru). Запускается GitHub Action .github/workflows/hse-import.yml и кладёт результат в ветку hse-import.",
+  "update": [
+    { "id": "rassol", "hse": "bce001c00fca48589ca71a3d4dbbaa41" },
+    { "id": "onda-ice-cream-packaging", "hse": "bb88fc0e135c4c97a52220d4d66ecf38" },
+    { "id": "onda-spoon", "hse": "491dadf79a534b42bfee143994390b65" },
+    { "id": "fort-1-stein", "hse": "9ecb0ebe94e14c79bc0f34bbcee4d66f" },
+    { "id": "pojmat-pero", "hse": "310c07850d734c89a97a89d5f268cc64" },
+    { "id": "tochka-na-karte-kerch", "hse": "b6ca8ab9c1834eb9be7c3315f23dbb1c" },
+    { "id": "multiverse-pop-culture", "hse": "49bf4403774a455dbd431fab04f85395" },
+    { "id": "molodezhny-sovet-petrograd", "hse": "86a2f3c7916344b19dfbc465fec40def" },
+    { "id": "karkarona-book", "hse": "2e3f62db21694203a787616bd45e2c8a" },
+    { "id": "karkarona-posters", "hse": "499470522bca4f118ade1bed4c8ed519" },
+    { "id": "notis", "hse": "9a384d328498440298f5ad5c019127d2" },
+    { "id": "nasledili", "hse": "a0b6b1124ee1465287b713df695e28c3" },
+    { "id": "dveri-i-kokosy", "hse": "4f92f59993754c2ea814ae9bceba033c" }
+  ],
+  "add": [
+    {
+      "id": "titry-konec-sveta",
+      "hse": "c77aef57da2f40b2b5ec2991710b793c",
+      "sourceUrl": "https://hsedesign.ru/project/titry-k-filmu-proekt-konec-svet-c77aef57da2f40b2b5ec2991710b793c",
+      "title": { "ru": "Титры к фильму «Проект „Конец света“»", "en": "Opening Credits for Project Hail Mary" },
+      "description": {
+        "ru": "Анимированные титры к фильму «Проект „Конец света“». Логотип собирается из точек, похожих на астрофагов — пожирателей звёзд, а сфера становится главным образом: титры связывают начало фильма с пробуждением героя и полётом последней надежды.",
+        "en": "Animated credits for Project Hail Mary. The logo assembles from dots that echo the star-eating astrophage, and the sphere becomes the central image, linking the opening of the film to the hero's awakening and the last-hope flight."
+      },
+      "categories": ["motion", "special-project"],
+      "x": 900, "y": 8150, "color": "#fe572a"
+    },
+    {
+      "id": "posleobraz",
+      "hse": "6e8429079e094d73af814ad18c8e2e3d",
+      "sourceUrl": "https://hsedesign.ru/project/posleobraz-dizajn-vystavki-6e8429079e094d73af814ad18c8e2e3d",
+      "title": { "ru": "Послеобраз / дизайн выставки", "en": "Afterimage / Exhibition Design" },
+      "description": {
+        "ru": "Дизайн выставки о послеобразе — изображении, которое остаётся на сетчатке после того, как исчезло. Так и фильм оставляет у зрителя чувства, которые нельзя выразить словами. Айдентика, эксплейнер и носители выставки.",
+        "en": "Exhibition design about the afterimage — a picture that stays on the retina after it disappears, just as a film leaves feelings that words cannot hold. Identity, explainer and exhibition media."
+      },
+      "categories": ["exhibition", "identity"],
+      "x": 1950, "y": 8420, "color": "#6c5bc7"
+    },
+    {
+      "id": "kudryavchik",
+      "hse": "682f70886b134af5b2b42708b876995b",
+      "sourceUrl": "https://hsedesign.ru/project/kudryavchik-682f70886b134af5b2b42708b876995b",
+      "title": { "ru": "Кудрявчик — леттеринг для кафе-барбершопа", "en": "Kudryavchik — Lettering for a Dog Café & Barber" },
+      "description": {
+        "ru": "Леттеринги для дог-френдли кафе-барбершопа «Кудрявчик», где питомцу делают причесончик и вкусно кормят. Игривые авторские надписи и анимированные леттеринги для бренда.",
+        "en": "Lettering for Kudryavchik, a dog-friendly café and barbershop where pets get a haircut and a treat. Playful custom lettering and animated type for the brand."
+      },
+      "categories": ["lettering", "identity", "branding"],
+      "x": 2950, "y": 8150, "color": "#daff02"
+    }
+  ]
+}

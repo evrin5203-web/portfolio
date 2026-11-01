@@ -255,6 +255,7 @@ button:focus-visible, a:focus-visible { outline: 1px solid var(--ink); outline-o
 .gallery-row.is-panoramic { grid-template-columns: minmax(0, 1fr); }
 .gallery-row.is-panoramic figure { width: 100%; }
 .gallery-open { display: block; width: 100%; height: 100%; overflow: hidden; }
+.project-embed { display: block; width: 100%; height: 100%; aspect-ratio: 16 / 9; border: 0; background: #111; }
 .gallery-open img, .gallery-open video { display: block; width: 100%; height: 100%; object-fit: contain; }
 .project-links { display: flex; flex-wrap: wrap; gap: 18px 34px; }
 .source-link { display: inline-block; margin-top: 54px; padding-bottom: 4px; border-bottom: 1px solid currentColor; font-family: var(--pixel); font-size: 11px; }

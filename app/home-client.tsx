@@ -13,7 +13,7 @@ const horizontalTiles = [-1, 0, 1];
 type Language = "en" | "ru";
 type Point = { x: number; y: number };
 type Localized = { en: string; ru: string };
-type ProjectImage = { src: string; width: number; height: number; animated: boolean };
+type ProjectImage = { src: string; width: number; height: number; animated: boolean; embed?: boolean };
 type Project = {
   id: string;
   title: Localized;
@@ -139,6 +139,9 @@ function assetPath(src: string) {
 
 const TELEGRAM = "phangelgelya";
 const ctaOptions: Array<{ categories: string[]; ru: string; en: string; serviceRu: string; serviceEn: string }> = [
+  { categories: ["lettering"], ru: "Заказать леттеринг", en: "Order lettering", serviceRu: "леттеринг", serviceEn: "lettering" },
+  { categories: ["motion"], ru: "Заказать моушн-дизайн", en: "Order motion design", serviceRu: "моушн-дизайн", serviceEn: "motion design" },
+  { categories: ["exhibition"], ru: "Заказать дизайн выставки", en: "Order exhibition design", serviceRu: "дизайн выставки", serviceEn: "exhibition design" },
   { categories: ["packaging"], ru: "Заказать упаковку", en: "Order packaging design", serviceRu: "дизайн упаковки", serviceEn: "packaging design" },
   { categories: ["branding", "identity", "logo"], ru: "Заказать брендинг", en: "Order brand identity", serviceRu: "брендинг", serviceEn: "brand identity" },
   { categories: ["web"], ru: "Заказать сайт", en: "Order a website", serviceRu: "сайт", serviceEn: "a website" },
@@ -220,6 +223,9 @@ function ProjectMedia({ image, alt, eager = false }: { image: ProjectImage; alt:
     return () => observer.disconnect();
   }, [image.animated, videoReady]);
 
+  if (image.embed) {
+    return <iframe className="project-embed" src={image.src} title={alt} loading="lazy" allow="autoplay; fullscreen; picture-in-picture; encrypted-media" allowFullScreen />;
+  }
   if (image.animated && image.src.endsWith(".mp4")) {
     return <video ref={videoRef} src={videoReady ? assetPath(image.src) : undefined} poster={thumbnailFor(image.src)} aria-label={alt} autoPlay loop muted playsInline preload={videoReady ? "metadata" : "none"} />;
   }
@@ -695,9 +701,9 @@ function ProjectView({ project, language, onClose, onNavigate }: { project: Proj
         <div className={`gallery-row ${row.panoramic ? "is-panoramic" : ""}`} key={`${rowIndex}-${row.items[0].image.src}`}>
           {row.items.map(({ image, index }) => (
             <figure key={image.src} style={{ aspectRatio: `${image.width} / ${image.height}`, flex: `${image.width / image.height} 1 0` }}>
-              <button className="gallery-open" onClick={() => setLightboxIndex(index)} aria-label={`${language === "en" ? "Open image" : "Открыть изображение"} ${index + 1} / ${galleryImages.length}`}>
+              {image.embed ? <ProjectMedia image={image} alt={`${project.title[language]} — ${index + 1}`} /> : <button className="gallery-open" onClick={() => setLightboxIndex(index)} aria-label={`${language === "en" ? "Open image" : "Открыть изображение"} ${index + 1} / ${galleryImages.length}`}>
                 <ProjectMedia image={image} alt={`${project.title[language]} — ${index + 1}`} eager={index < 2} />
-              </button>
+              </button>}
             </figure>
           ))}
         </div>

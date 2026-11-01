@@ -58,5 +58,20 @@
     "id": "merch",
     "ru": "Мерч",
     "en": "Merchandise"
+  },
+  {
+    "id": "lettering",
+    "ru": "Леттеринг",
+    "en": "Lettering"
+  },
+  {
+    "id": "motion",
+    "ru": "Моушн",
+    "en": "Motion"
+  },
+  {
+    "id": "exhibition",
+    "ru": "Выставки",
+    "en": "Exhibition design"
   }
 ]
