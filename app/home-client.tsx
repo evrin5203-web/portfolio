@@ -163,9 +163,19 @@ function projectCta(project: Project, language: Language) {
   return { label, href: `https://t.me/${TELEGRAM}?text=${encodeURIComponent(text)}` };
 }
 
+export function projectHref(id: string, language: Language) {
+  return `${basePath}${language === "en" ? "/en" : ""}/projects/${id}/`;
+}
+function homeHref(language: Language) {
+  return `${basePath}${language === "en" ? "/en/" : "/"}`;
+}
 function languageHref(language: Language) {
-  const hash = typeof window === "undefined" ? "" : window.location.hash;
-  return `${basePath}${language === "en" ? "/en/" : "/"}${hash}`;
+  if (typeof window === "undefined") return homeHref(language);
+  const match = window.location.pathname.match(/\/projects\/([^/]+)/);
+  const hashId = window.location.hash.replace(/^#/, "");
+  if (match) return projectHref(match[1], language);
+  if (hashId && projects.some((project) => project.id === hashId)) return projectHref(hashId, language);
+  return homeHref(language);
 }
 
 function thumbnailFor(src: string) {
@@ -232,13 +242,13 @@ function ProjectMedia({ image, alt, eager = false }: { image: ProjectImage; alt:
   return <img src={assetPath(image.src)} width={image.width} height={image.height} alt={alt} loading={eager ? "eager" : "lazy"} decoding="async" />;
 }
 
-export default function Home({ initialLanguage = "ru" }: { initialLanguage?: Language }) {
+export default function Home({ initialLanguage = "ru", initialProjectId }: { initialLanguage?: Language; initialProjectId?: string }) {
   const language = initialLanguage;
   const [camera, setCamera] = useState<Point>(START);
   const [viewport, setViewport] = useState({ width: 1440, height: 900 });
   const [dragging, setDragging] = useState(false);
   const [hovered, setHovered] = useState<Project | null>(null);
-  const [active, setActive] = useState<Project | null>(null);
+  const [active, setActive] = useState<Project | null>(() => projects.find((project) => project.id === initialProjectId) ?? null);
   const [panel, setPanel] = useState<"selected" | "index" | "about" | "contact" | null>(null);
   const cameraRef = useRef<Point>(START);
   const targetRef = useRef<Point>(START);
@@ -372,20 +382,29 @@ export default function Home({ initialLanguage = "ru" }: { initialLanguage?: Lan
         }
         setPanel(null);
         setActive(project);
-      } else if (!id) {
+      } else if (!id && !initialProjectId) {
         setActive(null);
       }
     };
+    const initialProject = projects.find((project) => project.id === initialProjectId);
+    if (initialProject) {
+      const point = { x: initialProject.x, y: initialProject.y };
+      targetRef.current = point;
+      cameraRef.current = point;
+    }
     openFromHash(true);
     const onHashChange = () => openFromHash(false);
     window.addEventListener("hashchange", onHashChange);
     return () => window.removeEventListener("hashchange", onHashChange);
-  }, []);
+  }, [initialProjectId]);
 
   useEffect(() => {
     if (!hashSynced.current) { hashSynced.current = true; return; }
-    const url = `${window.location.pathname}${window.location.search}${active ? `#${active.id}` : ""}`;
-    if (url !== `${window.location.pathname}${window.location.search}${window.location.hash}`) window.history.replaceState(null, "", url);
+    const url = active ? projectHref(active.id, language) : homeHref(language);
+    if (url !== `${window.location.pathname}${window.location.hash}`) window.history.replaceState(null, "", url);
+    document.title = active
+      ? `${active.title[language]} — ${language === "en" ? "Angelina Bolgova" : "Ангелина Болгова"}`
+      : (language === "en" ? "Angelina Bolgova — graphic designer & art director" : "Ангелина Болгова — графический дизайнер и арт-директор");
   }, [active]);
 
   useEffect(() => {
@@ -451,6 +470,13 @@ export default function Home({ initialLanguage = "ru" }: { initialLanguage?: Lan
 
   return (
     <main className={`site-shell lang-${language}`}>
+      <div className="sr-only">
+        <h1>{(() => { const page = projects.find((project) => project.id === initialProjectId); return page ? `${page.title[language]} — ${language === "en" ? "Angelina Bolgova, designer" : "Ангелина Болгова, дизайнер"}` : (language === "en" ? "Angelina Bolgova — graphic designer and art director. Portfolio" : "Ангелина Болгова — графический дизайнер и арт-директор. Портфолио"); })()}</h1>
+        <p>{language === "en" ? "Design portfolio of Angelina Bolgova: brand identity and branding, packaging design, lettering, posters, books, exhibition and motion design. Commissions via Telegram @phangelgelya." : "Портфолио дизайнера Ангелины Болговой: айдентика и брендинг, дизайн упаковки, леттеринг, постеры, книги, дизайн выставок и моушн. Заказы — Telegram @phangelgelya."}</p>
+        <nav aria-label={language === "en" ? "Projects" : "Проекты"}>
+          <ul>{projects.map((project) => <li key={project.id}><a href={projectHref(project.id, language)}>{project.title[language]} — {project.categories.map((id) => categoryLabel(id, language)).join(", ")}</a></li>)}</ul>
+        </nav>
+      </div>
       <div ref={cursorRef} className="custom-cursor" aria-hidden="true"><img src={assetPath("/art/arrow.svg")} alt="" /></div>
       <div ref={previewRef} className={`hover-preview ${hovered ? "is-visible" : ""}`} aria-hidden="true">
         {hovered && <Cover project={hovered} language={language} />}
@@ -516,13 +542,13 @@ function WorldTile({ left, oceanRows, language, onHover, onOpen }: {
       {surfaceArt.map((item, index) => <Art key={`surface-${index}`} item={item} index={index} />)}
 
       <article className="intro">
-        <h1>
+        <p className="intro-title" aria-hidden="true">
           <span className="intro-name-first">
             {language === "en" ? "A" : "А"}
             <span className="intro-hello">{language === "en" ? "Hello, I’m" : "Привет, я"}</span>
           </span>
           <span>{language === "en" ? "ngelina." : "нгелина."}</span>
-        </h1>
+        </p>
         <p className="intro-line"><span>{language === "en" ? "And I’m somewhere here." : "И я где-то здесь."}</span></p>
         <strong>{language === "en" ? "Designer & art director · keep moving →" : "Дизайнер и арт-директор · Продолжай двигаться →"}</strong>
         <span className="intro-services">{language === "en" ? "brand identity · packaging · lettering · posters · books" : "айдентика · упаковка · леттеринг · постеры · книги"}</span>
