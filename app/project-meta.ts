@@ -84,6 +84,8 @@ export function personJsonLd(language: "ru" | "en") {
     email: "mailto:bolgova.gelya@mail.ru",
     knowsAbout: ru ? ["айдентика", "брендинг", "дизайн упаковки", "леттеринг", "постеры", "дизайн книг"] : ["brand identity", "branding", "packaging design", "lettering", "posters", "book design"],
     sameAs: [
+      "https://www.behance.net/angelgelya",
+      "https://dprofile.ru/bolgova.gelya",
       "https://t.me/phangelgelya",
       "https://t.me/angelinapsd",
       "https://ru.pinterest.com/phangelgelya/",
