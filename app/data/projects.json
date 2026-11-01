@@ -24,178 +24,245 @@
         "animated": false
       },
       {
-        "src": "/portfolio/rassol/002.mp4",
+        "src": "/portfolio/rassol/h002.mp4",
         "width": 1800,
-        "height": 375,
+        "height": 376,
         "animated": true
       },
       {
-        "src": "/portfolio/rassol/003.mp4",
+        "src": "/portfolio/rassol/h003.mp4",
         "width": 1800,
         "height": 420,
         "animated": true
       },
       {
-        "src": "/portfolio/rassol/004.webp",
+        "src": "/portfolio/rassol/h004.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/rassol/005.mp4",
+        "src": "/portfolio/rassol/h005.mp4",
         "width": 1800,
         "height": 516,
         "animated": true
       },
       {
-        "src": "/portfolio/rassol/006.webp",
+        "src": "/portfolio/rassol/h006.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/rassol/007.webp",
+        "src": "/portfolio/rassol/h007.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/rassol/008.webp",
+        "src": "/portfolio/rassol/h008.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/rassol/009.webp",
+        "src": "/portfolio/rassol/h009.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/rassol/010.webp",
+        "src": "/portfolio/rassol/h010.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/rassol/011.webp",
+        "src": "/portfolio/rassol/h011.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/rassol/012.webp",
+        "src": "/portfolio/rassol/h012.mp4",
+        "width": 1800,
+        "height": 750,
+        "animated": true
+      },
+      {
+        "src": "/portfolio/rassol/h013.mp4",
+        "width": 1800,
+        "height": 420,
+        "animated": true
+      },
+      {
+        "src": "/portfolio/rassol/h014.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/rassol/013.webp",
+        "src": "/portfolio/rassol/h015.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/rassol/014.webp",
+        "src": "/portfolio/rassol/h016.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/rassol/015.webp",
+        "src": "/portfolio/rassol/h017.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/rassol/016.webp",
+        "src": "/portfolio/rassol/h018.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/rassol/017.webp",
+        "src": "/portfolio/rassol/h019.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/rassol/018.webp",
+        "src": "/portfolio/rassol/h020.mp4",
+        "width": 1280,
+        "height": 720,
+        "animated": true
+      },
+      {
+        "src": "/portfolio/rassol/h021.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/rassol/019.webp",
+        "src": "/portfolio/rassol/h022.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/rassol/020.webp",
+        "src": "/portfolio/rassol/h023.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/rassol/021.webp",
+        "src": "/portfolio/rassol/h024.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/rassol/022.webp",
+        "src": "/portfolio/rassol/h025.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/rassol/023.webp",
+        "src": "/portfolio/rassol/h026.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/rassol/024.webp",
+        "src": "/portfolio/rassol/h027.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/rassol/025.webp",
+        "src": "/portfolio/rassol/h028.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/rassol/026.webp",
+        "src": "/portfolio/rassol/h029.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/rassol/027.webp",
+        "src": "/portfolio/rassol/h030.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/rassol/028.webp",
+        "src": "/portfolio/rassol/h031.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/rassol/029.webp",
+        "src": "/portfolio/rassol/h032.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/rassol/030.webp",
+        "src": "/portfolio/rassol/h033.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
+      },
+      {
+        "src": "/portfolio/rassol/h034.webp",
+        "width": 1800,
+        "height": 1200,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/rassol/h035.webp",
+        "width": 1800,
+        "height": 1200,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/rassol/h036.webp",
+        "width": 1800,
+        "height": 1200,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/rassol/h037.webp",
+        "width": 1800,
+        "height": 1200,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/rassol/h038.webp",
+        "width": 1800,
+        "height": 1200,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/rassol/h039.webp",
+        "width": 1800,
+        "height": 1200,
+        "animated": false
+      },
+      {
+        "src": "https://kinescope.io/embed/s8qNdViV5YR21Rx32n1i9f",
+        "width": 1920,
+        "height": 1080,
+        "animated": false,
+        "embed": true
+      },
+      {
+        "src": "/portfolio/rassol/h041.mp4",
+        "width": 1800,
+        "height": 750,
+        "animated": true
       }
     ],
     "selected": true,
@@ -205,8 +272,8 @@
     "color": "#fe572a",
     "selectedFrames": [
       0,
-      19,
-      27
+      21,
+      32
     ]
   },
   {
@@ -387,115 +454,201 @@
         "animated": false
       },
       {
-        "src": "/portfolio/onda-ice-cream-packaging/002.webp",
+        "src": "/portfolio/onda-ice-cream-packaging/h002.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/onda-ice-cream-packaging/003.webp",
+        "src": "https://kinescope.io/embed/oGTvaMkLoZNtdoXuCNpaJF",
+        "width": 1920,
+        "height": 1080,
+        "animated": false,
+        "embed": true
+      },
+      {
+        "src": "/portfolio/onda-ice-cream-packaging/h004.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/onda-ice-cream-packaging/004.webp",
+        "src": "/portfolio/onda-ice-cream-packaging/h005.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/onda-ice-cream-packaging/005.webp",
+        "src": "/portfolio/onda-ice-cream-packaging/h006.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/onda-ice-cream-packaging/006.webp",
+        "src": "/portfolio/onda-ice-cream-packaging/h007.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/onda-ice-cream-packaging/007.webp",
+        "src": "/portfolio/onda-ice-cream-packaging/h008.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/onda-ice-cream-packaging/008.webp",
+        "src": "/portfolio/onda-ice-cream-packaging/h009.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/onda-ice-cream-packaging/009.webp",
+        "src": "/portfolio/onda-ice-cream-packaging/h010.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/onda-ice-cream-packaging/010.webp",
+        "src": "https://kinescope.io/embed/9K3sMh4qACguoc8ZnmJe1i",
+        "width": 1920,
+        "height": 1080,
+        "animated": false,
+        "embed": true
+      },
+      {
+        "src": "/portfolio/onda-ice-cream-packaging/h012.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/onda-ice-cream-packaging/011.webp",
+        "src": "/portfolio/onda-ice-cream-packaging/h013.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/onda-ice-cream-packaging/012.webp",
+        "src": "/portfolio/onda-ice-cream-packaging/h014.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/onda-ice-cream-packaging/013.webp",
+        "src": "/portfolio/onda-ice-cream-packaging/h015.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/onda-ice-cream-packaging/014.webp",
-        "width": 1800,
-        "height": 1201,
-        "animated": false
-      },
-      {
-        "src": "/portfolio/onda-ice-cream-packaging/015.webp",
+        "src": "/portfolio/onda-ice-cream-packaging/h016.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/onda-ice-cream-packaging/016.webp",
+        "src": "/portfolio/onda-ice-cream-packaging/h017.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/onda-ice-cream-packaging/017.webp",
+        "src": "/portfolio/onda-ice-cream-packaging/h018.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/onda-ice-cream-packaging/018.webp",
+        "src": "/portfolio/onda-ice-cream-packaging/h019.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/onda-ice-cream-packaging/019.webp",
+        "src": "/portfolio/onda-ice-cream-packaging/h020.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/onda-ice-cream-packaging/020.webp",
+        "src": "/portfolio/onda-ice-cream-packaging/h021.webp",
+        "width": 1800,
+        "height": 1200,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/onda-ice-cream-packaging/h022.webp",
+        "width": 1800,
+        "height": 1200,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/onda-ice-cream-packaging/h023.webp",
+        "width": 1800,
+        "height": 1200,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/onda-ice-cream-packaging/h024.webp",
+        "width": 1800,
+        "height": 1200,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/onda-ice-cream-packaging/h025.webp",
+        "width": 1800,
+        "height": 1200,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/onda-ice-cream-packaging/h026.webp",
+        "width": 1800,
+        "height": 1200,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/onda-ice-cream-packaging/h027.webp",
+        "width": 1800,
+        "height": 1200,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/onda-ice-cream-packaging/h028.webp",
+        "width": 1800,
+        "height": 1200,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/onda-ice-cream-packaging/h029.webp",
+        "width": 1800,
+        "height": 1200,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/onda-ice-cream-packaging/h030.webp",
+        "width": 1800,
+        "height": 1200,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/onda-ice-cream-packaging/h031.webp",
+        "width": 1800,
+        "height": 1200,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/onda-ice-cream-packaging/h032.webp",
+        "width": 1800,
+        "height": 1200,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/onda-ice-cream-packaging/h033.webp",
+        "width": 1800,
+        "height": 1200,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/onda-ice-cream-packaging/h034.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
@@ -838,45 +991,57 @@
         "animated": false
       },
       {
-        "src": "/portfolio/onda-spoon/002.webp",
+        "src": "/portfolio/onda-spoon/h002.webp",
         "width": 1800,
-        "height": 1157,
+        "height": 1158,
         "animated": false
       },
       {
-        "src": "/portfolio/onda-spoon/003.webp",
+        "src": "/portfolio/onda-spoon/h003.webp",
         "width": 1800,
-        "height": 1157,
+        "height": 1158,
         "animated": false
       },
       {
-        "src": "/portfolio/onda-spoon/004.webp",
+        "src": "/portfolio/onda-spoon/h004.webp",
         "width": 1800,
-        "height": 1157,
+        "height": 1158,
         "animated": false
       },
       {
-        "src": "/portfolio/onda-spoon/005.webp",
+        "src": "/portfolio/onda-spoon/h005.webp",
         "width": 1800,
-        "height": 1157,
+        "height": 1154,
         "animated": false
       },
       {
-        "src": "/portfolio/onda-spoon/006.webp",
+        "src": "/portfolio/onda-spoon/h006.webp",
         "width": 1800,
-        "height": 1157,
+        "height": 1158,
         "animated": false
       },
       {
-        "src": "/portfolio/onda-spoon/007.webp",
+        "src": "/portfolio/onda-spoon/h007.webp",
         "width": 1800,
-        "height": 1157,
+        "height": 1158,
         "animated": false
       },
       {
-        "src": "/portfolio/onda-spoon/008.webp",
+        "src": "/portfolio/onda-spoon/h008.webp",
         "width": 1800,
-        "height": 1157,
+        "height": 1158,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/onda-spoon/h009.webp",
+        "width": 1800,
+        "height": 1158,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/onda-spoon/h010.webp",
+        "width": 1800,
+        "height": 1158,
         "animated": false
       }
     ],
@@ -1164,51 +1329,76 @@
         "animated": false
       },
       {
-        "src": "/portfolio/fort-1-stein/002.webp",
+        "src": "/portfolio/fort-1-stein/h002.webp",
         "width": 1800,
-        "height": 1013,
+        "height": 1012,
         "animated": false
       },
       {
-        "src": "/portfolio/fort-1-stein/003.webp",
+        "src": "/portfolio/fort-1-stein/h003.webp",
         "width": 1800,
-        "height": 589,
+        "height": 360,
         "animated": false
       },
       {
-        "src": "/portfolio/fort-1-stein/004.webp",
+        "src": "/portfolio/fort-1-stein/h004.webp",
         "width": 1800,
         "height": 530,
         "animated": false
       },
       {
-        "src": "/portfolio/fort-1-stein/005.webp",
-        "width": 1800,
-        "height": 902,
-        "animated": false
-      },
-      {
-        "src": "/portfolio/fort-1-stein/006.webp",
-        "width": 1800,
-        "height": 468,
-        "animated": false
-      },
-      {
-        "src": "/portfolio/fort-1-stein/007.webp",
-        "width": 1800,
-        "height": 1295,
-        "animated": false
-      },
-      {
-        "src": "/portfolio/fort-1-stein/008.webp",
+        "src": "/portfolio/fort-1-stein/h005.webp",
         "width": 1800,
         "height": 768,
         "animated": false
       },
       {
-        "src": "/portfolio/fort-1-stein/009.webp",
+        "src": "/portfolio/fort-1-stein/h006.webp",
         "width": 1800,
-        "height": 973,
+        "height": 348,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/fort-1-stein/h007.webp",
+        "width": 1800,
+        "height": 902,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/fort-1-stein/h008.webp",
+        "width": 1800,
+        "height": 590,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/fort-1-stein/h009.webp",
+        "width": 1800,
+        "height": 1296,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/fort-1-stein/h010.webp",
+        "width": 1800,
+        "height": 468,
+        "animated": false
+      },
+      {
+        "src": "https://kinescope.io/embed/huaNJsmre6LqnE585xg4eJ",
+        "width": 1920,
+        "height": 1080,
+        "animated": false,
+        "embed": true
+      },
+      {
+        "src": "/portfolio/fort-1-stein/h012.webp",
+        "width": 1800,
+        "height": 974,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/fort-1-stein/h013.webp",
+        "width": 1800,
+        "height": 336,
         "animated": false
       }
     ],
@@ -1242,105 +1432,135 @@
         "animated": false
       },
       {
-        "src": "/portfolio/pojmat-pero/002.webp",
+        "src": "/portfolio/pojmat-pero/h002.webp",
+        "width": 1800,
+        "height": 346,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/pojmat-pero/h003.webp",
         "width": 1536,
         "height": 1024,
         "animated": false
       },
       {
-        "src": "/portfolio/pojmat-pero/003.webp",
+        "src": "/portfolio/pojmat-pero/h004.webp",
         "width": 1536,
         "height": 1024,
         "animated": false
       },
       {
-        "src": "/portfolio/pojmat-pero/004.webp",
+        "src": "/portfolio/pojmat-pero/h005.webp",
+        "width": 1536,
+        "height": 1024,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/pojmat-pero/h006.webp",
+        "width": 1536,
+        "height": 1024,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/pojmat-pero/h007.webp",
+        "width": 1536,
+        "height": 1024,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/pojmat-pero/h008.webp",
+        "width": 1800,
+        "height": 346,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/pojmat-pero/h009.webp",
+        "width": 1536,
+        "height": 1024,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/pojmat-pero/h010.webp",
+        "width": 1536,
+        "height": 1024,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/pojmat-pero/h011.webp",
+        "width": 1536,
+        "height": 1024,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/pojmat-pero/h012.webp",
+        "width": 1536,
+        "height": 1024,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/pojmat-pero/h013.webp",
+        "width": 1546,
+        "height": 1018,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/pojmat-pero/h014.webp",
+        "width": 1536,
+        "height": 1146,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/pojmat-pero/h015.webp",
         "width": 1451,
         "height": 1084,
         "animated": false
       },
       {
-        "src": "/portfolio/pojmat-pero/005.webp",
-        "width": 1536,
+        "src": "/portfolio/pojmat-pero/h016.webp",
+        "width": 1537,
+        "height": 1154,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/pojmat-pero/h017.webp",
+        "width": 1800,
+        "height": 346,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/pojmat-pero/h018.webp",
+        "width": 1537,
         "height": 1024,
         "animated": false
       },
       {
-        "src": "/portfolio/pojmat-pero/006.webp",
-        "width": 1536,
+        "src": "/portfolio/pojmat-pero/h019.webp",
+        "width": 1537,
         "height": 1024,
         "animated": false
       },
       {
-        "src": "/portfolio/pojmat-pero/007.webp",
-        "width": 1536,
+        "src": "/portfolio/pojmat-pero/h020.webp",
+        "width": 1537,
         "height": 1024,
         "animated": false
       },
       {
-        "src": "/portfolio/pojmat-pero/008.webp",
-        "width": 1536,
+        "src": "/portfolio/pojmat-pero/h021.webp",
+        "width": 1537,
         "height": 1024,
         "animated": false
       },
       {
-        "src": "/portfolio/pojmat-pero/009.webp",
+        "src": "/portfolio/pojmat-pero/h022.webp",
         "width": 1537,
-        "height": 1023,
-        "animated": false
-      },
-      {
-        "src": "/portfolio/pojmat-pero/010.webp",
-        "width": 1536,
         "height": 1024,
         "animated": false
       },
       {
-        "src": "/portfolio/pojmat-pero/011.webp",
-        "width": 1537,
-        "height": 1023,
-        "animated": false
-      },
-      {
-        "src": "/portfolio/pojmat-pero/012.webp",
-        "width": 1536,
-        "height": 1024,
-        "animated": false
-      },
-      {
-        "src": "/portfolio/pojmat-pero/013.webp",
-        "width": 1537,
-        "height": 1153,
-        "animated": false
-      },
-      {
-        "src": "/portfolio/pojmat-pero/014.webp",
-        "width": 1537,
-        "height": 1023,
-        "animated": false
-      },
-      {
-        "src": "/portfolio/pojmat-pero/015.webp",
-        "width": 1536,
-        "height": 1145,
-        "animated": false
-      },
-      {
-        "src": "/portfolio/pojmat-pero/016.webp",
-        "width": 1537,
-        "height": 1023,
-        "animated": false
-      },
-      {
-        "src": "/portfolio/pojmat-pero/017.webp",
-        "width": 1546,
-        "height": 1017,
-        "animated": false
-      },
-      {
-        "src": "/portfolio/pojmat-pero/018.webp",
-        "width": 1537,
-        "height": 1023,
+        "src": "/portfolio/pojmat-pero/h023.webp",
+        "width": 1800,
+        "height": 346,
         "animated": false
       }
     ],
@@ -1796,79 +2016,127 @@
         "animated": false
       },
       {
-        "src": "/portfolio/tochka-na-karte-kerch/002.webp",
+        "src": "/portfolio/tochka-na-karte-kerch/h002.webp",
         "width": 1800,
         "height": 1246,
         "animated": false
       },
       {
-        "src": "/portfolio/tochka-na-karte-kerch/003.webp",
+        "src": "/portfolio/tochka-na-karte-kerch/h003.webp",
         "width": 1800,
         "height": 1246,
         "animated": false
       },
       {
-        "src": "/portfolio/tochka-na-karte-kerch/004.webp",
+        "src": "/portfolio/tochka-na-karte-kerch/h004.webp",
         "width": 1800,
         "height": 1246,
         "animated": false
       },
       {
-        "src": "/portfolio/tochka-na-karte-kerch/005.webp",
+        "src": "/portfolio/tochka-na-karte-kerch/h005.webp",
         "width": 1800,
         "height": 1246,
         "animated": false
       },
       {
-        "src": "/portfolio/tochka-na-karte-kerch/006.webp",
+        "src": "/portfolio/tochka-na-karte-kerch/h006.webp",
         "width": 1800,
         "height": 1246,
         "animated": false
       },
       {
-        "src": "/portfolio/tochka-na-karte-kerch/007.webp",
+        "src": "/portfolio/tochka-na-karte-kerch/h007.webp",
         "width": 1800,
         "height": 1246,
         "animated": false
       },
       {
-        "src": "/portfolio/tochka-na-karte-kerch/008.webp",
+        "src": "/portfolio/tochka-na-karte-kerch/h008.webp",
         "width": 1800,
         "height": 1246,
         "animated": false
       },
       {
-        "src": "/portfolio/tochka-na-karte-kerch/009.webp",
+        "src": "/portfolio/tochka-na-karte-kerch/h009.webp",
         "width": 1800,
         "height": 1246,
         "animated": false
       },
       {
-        "src": "/portfolio/tochka-na-karte-kerch/010.webp",
+        "src": "/portfolio/tochka-na-karte-kerch/h010.webp",
         "width": 1800,
         "height": 1246,
         "animated": false
       },
       {
-        "src": "/portfolio/tochka-na-karte-kerch/011.webp",
+        "src": "/portfolio/tochka-na-karte-kerch/h011.webp",
         "width": 1800,
         "height": 1246,
         "animated": false
       },
       {
-        "src": "/portfolio/tochka-na-karte-kerch/012.webp",
+        "src": "/portfolio/tochka-na-karte-kerch/h012.webp",
         "width": 1800,
         "height": 1246,
         "animated": false
       },
       {
-        "src": "/portfolio/tochka-na-karte-kerch/013.webp",
+        "src": "/portfolio/tochka-na-karte-kerch/h013.webp",
         "width": 1800,
         "height": 1246,
         "animated": false
       },
       {
-        "src": "/portfolio/tochka-na-karte-kerch/014.webp",
+        "src": "/portfolio/tochka-na-karte-kerch/h014.webp",
+        "width": 1800,
+        "height": 1246,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/tochka-na-karte-kerch/h015.webp",
+        "width": 1800,
+        "height": 1246,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/tochka-na-karte-kerch/h016.webp",
+        "width": 1800,
+        "height": 1246,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/tochka-na-karte-kerch/h017.webp",
+        "width": 1800,
+        "height": 1246,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/tochka-na-karte-kerch/h018.webp",
+        "width": 1800,
+        "height": 1246,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/tochka-na-karte-kerch/h019.webp",
+        "width": 1800,
+        "height": 1246,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/tochka-na-karte-kerch/h020.webp",
+        "width": 1800,
+        "height": 1246,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/tochka-na-karte-kerch/h021.webp",
+        "width": 1800,
+        "height": 1246,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/tochka-na-karte-kerch/h022.webp",
         "width": 1800,
         "height": 1246,
         "animated": false
@@ -1903,87 +2171,153 @@
         "animated": false
       },
       {
-        "src": "/portfolio/multiverse-pop-culture/002.webp",
+        "src": "/portfolio/multiverse-pop-culture/h002.webp",
         "width": 1800,
-        "height": 1181,
+        "height": 1182,
         "animated": false
       },
       {
-        "src": "/portfolio/multiverse-pop-culture/003.webp",
+        "src": "/portfolio/multiverse-pop-culture/h003.webp",
         "width": 1800,
-        "height": 1181,
+        "height": 1182,
         "animated": false
       },
       {
-        "src": "/portfolio/multiverse-pop-culture/004.webp",
+        "src": "/portfolio/multiverse-pop-culture/h004.webp",
         "width": 1800,
-        "height": 1181,
+        "height": 1182,
         "animated": false
       },
       {
-        "src": "/portfolio/multiverse-pop-culture/005.webp",
-        "width": 1152,
-        "height": 756,
-        "animated": false
-      },
-      {
-        "src": "/portfolio/multiverse-pop-culture/006.webp",
-        "width": 1152,
-        "height": 768,
-        "animated": false
-      },
-      {
-        "src": "/portfolio/multiverse-pop-culture/007.webp",
+        "src": "/portfolio/multiverse-pop-culture/h005.webp",
         "width": 1800,
-        "height": 1181,
+        "height": 1182,
         "animated": false
       },
       {
-        "src": "/portfolio/multiverse-pop-culture/008.webp",
+        "src": "/portfolio/multiverse-pop-culture/h006.webp",
         "width": 1800,
-        "height": 1181,
+        "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/multiverse-pop-culture/009.webp",
+        "src": "/portfolio/multiverse-pop-culture/h007.webp",
         "width": 1800,
-        "height": 1181,
+        "height": 1182,
         "animated": false
       },
       {
-        "src": "/portfolio/multiverse-pop-culture/010.webp",
-        "width": 1152,
-        "height": 756,
-        "animated": false
-      },
-      {
-        "src": "/portfolio/multiverse-pop-culture/011.webp",
-        "width": 1152,
-        "height": 756,
-        "animated": false
-      },
-      {
-        "src": "/portfolio/multiverse-pop-culture/012.webp",
+        "src": "/portfolio/multiverse-pop-culture/h008.webp",
         "width": 1800,
-        "height": 1181,
+        "height": 1182,
         "animated": false
       },
       {
-        "src": "/portfolio/multiverse-pop-culture/013.webp",
+        "src": "/portfolio/multiverse-pop-culture/h009.webp",
         "width": 1800,
-        "height": 1181,
+        "height": 1182,
         "animated": false
       },
       {
-        "src": "/portfolio/multiverse-pop-culture/014.webp",
+        "src": "/portfolio/multiverse-pop-culture/h010.webp",
         "width": 1800,
-        "height": 1181,
+        "height": 1182,
         "animated": false
       },
       {
-        "src": "/portfolio/multiverse-pop-culture/015.webp",
+        "src": "/portfolio/multiverse-pop-culture/h011.webp",
         "width": 1800,
-        "height": 1181,
+        "height": 1182,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/multiverse-pop-culture/h012.webp",
+        "width": 1800,
+        "height": 1182,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/multiverse-pop-culture/h013.webp",
+        "width": 1800,
+        "height": 1182,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/multiverse-pop-culture/h014.webp",
+        "width": 1800,
+        "height": 1182,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/multiverse-pop-culture/h015.webp",
+        "width": 1800,
+        "height": 1182,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/multiverse-pop-culture/h016.webp",
+        "width": 1800,
+        "height": 1182,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/multiverse-pop-culture/h017.webp",
+        "width": 1800,
+        "height": 1182,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/multiverse-pop-culture/h018.webp",
+        "width": 1800,
+        "height": 1182,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/multiverse-pop-culture/h019.webp",
+        "width": 1800,
+        "height": 1182,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/multiverse-pop-culture/h020.webp",
+        "width": 1800,
+        "height": 1182,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/multiverse-pop-culture/h021.webp",
+        "width": 1800,
+        "height": 1182,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/multiverse-pop-culture/h022.webp",
+        "width": 1800,
+        "height": 1182,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/multiverse-pop-culture/h023.webp",
+        "width": 1800,
+        "height": 1182,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/multiverse-pop-culture/h024.webp",
+        "width": 1800,
+        "height": 1182,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/multiverse-pop-culture/h025.webp",
+        "width": 1800,
+        "height": 1182,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/multiverse-pop-culture/h026.webp",
+        "width": 1800,
+        "height": 1182,
         "animated": false
       }
     ],
@@ -2243,57 +2577,107 @@
         "animated": false
       },
       {
-        "src": "/portfolio/molodezhny-sovet-petrograd/002.webp",
-        "width": 900,
-        "height": 1263,
-        "animated": false
-      },
-      {
-        "src": "/portfolio/molodezhny-sovet-petrograd/003.webp",
+        "src": "/portfolio/molodezhny-sovet-petrograd/h002.webp",
         "width": 1800,
-        "height": 407,
+        "height": 406,
         "animated": false
       },
       {
-        "src": "/portfolio/molodezhny-sovet-petrograd/004.webp",
+        "src": "https://kinescope.io/embed/xpgmFizSmZVkyGCuKXHhbH",
+        "width": 1920,
+        "height": 1080,
+        "animated": false,
+        "embed": true
+      },
+      {
+        "src": "/portfolio/molodezhny-sovet-petrograd/h004.webp",
         "width": 1800,
-        "height": 1029,
+        "height": 1028,
         "animated": false
       },
       {
-        "src": "/portfolio/molodezhny-sovet-petrograd/005.webp",
+        "src": "/portfolio/molodezhny-sovet-petrograd/h005.webp",
+        "width": 1800,
+        "height": 1028,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/molodezhny-sovet-petrograd/h006.webp",
+        "width": 1800,
+        "height": 406,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/molodezhny-sovet-petrograd/h007.webp",
+        "width": 1800,
+        "height": 1144,
+        "animated": false
+      },
+      {
+        "src": "https://kinescope.io/embed/7CtDhNQJLtRnZhutXLzDqJ",
+        "width": 1920,
+        "height": 1080,
+        "animated": false,
+        "embed": true
+      },
+      {
+        "src": "/portfolio/molodezhny-sovet-petrograd/h009.webp",
         "width": 1800,
         "height": 900,
         "animated": false
       },
       {
-        "src": "/portfolio/molodezhny-sovet-petrograd/006.webp",
+        "src": "/portfolio/molodezhny-sovet-petrograd/h010.webp",
         "width": 1800,
         "height": 900,
         "animated": false
       },
       {
-        "src": "/portfolio/molodezhny-sovet-petrograd/007.webp",
+        "src": "/portfolio/molodezhny-sovet-petrograd/h011.webp",
         "width": 1800,
         "height": 900,
         "animated": false
       },
       {
-        "src": "/portfolio/molodezhny-sovet-petrograd/008.webp",
+        "src": "/portfolio/molodezhny-sovet-petrograd/h012.webp",
         "width": 1800,
         "height": 900,
         "animated": false
       },
       {
-        "src": "/portfolio/molodezhny-sovet-petrograd/009.webp",
+        "src": "/portfolio/molodezhny-sovet-petrograd/h013.webp",
         "width": 1800,
-        "height": 1021,
+        "height": 832,
         "animated": false
       },
       {
-        "src": "/portfolio/molodezhny-sovet-petrograd/010.webp",
+        "src": "/portfolio/molodezhny-sovet-petrograd/h014.webp",
         "width": 1800,
-        "height": 1021,
+        "height": 1192,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/molodezhny-sovet-petrograd/h015.webp",
+        "width": 1800,
+        "height": 1158,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/molodezhny-sovet-petrograd/h016.webp",
+        "width": 1800,
+        "height": 1020,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/molodezhny-sovet-petrograd/h017.webp",
+        "width": 1800,
+        "height": 1020,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/molodezhny-sovet-petrograd/h018.webp",
+        "width": 1800,
+        "height": 650,
         "animated": false
       }
     ],
@@ -2723,142 +3107,180 @@
         "animated": false
       },
       {
-        "src": "/portfolio/karkarona-book/002.webp",
+        "src": "https://kinescope.io/embed/3M8746LARHWUBQTbXRf67v",
+        "width": 1920,
+        "height": 1080,
+        "animated": false,
+        "embed": true
+      },
+      {
+        "src": "/portfolio/karkarona-book/h003.webp",
         "width": 1800,
-        "height": 1013,
+        "height": 1012,
         "animated": false
       },
       {
-        "src": "/portfolio/karkarona-book/003.mp4",
+        "src": "/portfolio/karkarona-book/h004.mp4",
         "width": 1800,
         "height": 900,
         "animated": true
       },
       {
-        "src": "/portfolio/karkarona-book/004.webp",
+        "src": "/portfolio/karkarona-book/h005.webp",
         "width": 1800,
         "height": 1080,
         "animated": false
       },
       {
-        "src": "/portfolio/karkarona-book/005.webp",
+        "src": "/portfolio/karkarona-book/h006.webp",
         "width": 1800,
         "height": 1080,
         "animated": false
       },
       {
-        "src": "/portfolio/karkarona-book/006.webp",
+        "src": "/portfolio/karkarona-book/h007.webp",
         "width": 1800,
         "height": 1080,
         "animated": false
       },
       {
-        "src": "/portfolio/karkarona-book/007.webp",
+        "src": "/portfolio/karkarona-book/h008.webp",
         "width": 1800,
         "height": 1080,
         "animated": false
       },
       {
-        "src": "/portfolio/karkarona-book/008.webp",
+        "src": "/portfolio/karkarona-book/h009.webp",
+        "width": 1800,
+        "height": 2020,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/karkarona-book/h010.webp",
         "width": 1800,
         "height": 1080,
         "animated": false
       },
       {
-        "src": "/portfolio/karkarona-book/009.webp",
+        "src": "/portfolio/karkarona-book/h011.webp",
         "width": 1800,
         "height": 1080,
         "animated": false
       },
       {
-        "src": "/portfolio/karkarona-book/010.webp",
+        "src": "/portfolio/karkarona-book/h012.webp",
         "width": 1800,
         "height": 1080,
         "animated": false
       },
       {
-        "src": "/portfolio/karkarona-book/011.webp",
+        "src": "/portfolio/karkarona-book/h013.webp",
         "width": 1800,
         "height": 1080,
         "animated": false
       },
       {
-        "src": "/portfolio/karkarona-book/012.webp",
+        "src": "/portfolio/karkarona-book/h014.webp",
         "width": 1800,
         "height": 1080,
         "animated": false
       },
       {
-        "src": "/portfolio/karkarona-book/013.webp",
+        "src": "/portfolio/karkarona-book/h015.webp",
         "width": 1800,
         "height": 1080,
         "animated": false
       },
       {
-        "src": "/portfolio/karkarona-book/014.webp",
+        "src": "/portfolio/karkarona-book/h016.webp",
         "width": 1800,
         "height": 1080,
         "animated": false
       },
       {
-        "src": "/portfolio/karkarona-book/015.webp",
+        "src": "/portfolio/karkarona-book/h017.webp",
         "width": 1800,
         "height": 1080,
         "animated": false
       },
       {
-        "src": "/portfolio/karkarona-book/016.webp",
+        "src": "/portfolio/karkarona-book/h018.webp",
         "width": 1800,
         "height": 1080,
         "animated": false
       },
       {
-        "src": "/portfolio/karkarona-book/017.webp",
+        "src": "/portfolio/karkarona-book/h019.webp",
         "width": 1800,
         "height": 1080,
         "animated": false
       },
       {
-        "src": "/portfolio/karkarona-book/018.webp",
+        "src": "/portfolio/karkarona-book/h020.webp",
         "width": 1800,
         "height": 1080,
         "animated": false
       },
       {
-        "src": "/portfolio/karkarona-book/019.webp",
+        "src": "/portfolio/karkarona-book/h021.webp",
         "width": 1800,
         "height": 1080,
         "animated": false
       },
       {
-        "src": "/portfolio/karkarona-book/020.webp",
+        "src": "/portfolio/karkarona-book/h022.webp",
         "width": 1800,
         "height": 1080,
         "animated": false
       },
       {
-        "src": "/portfolio/karkarona-book/021.webp",
+        "src": "/portfolio/karkarona-book/h023.webp",
         "width": 1800,
         "height": 1080,
         "animated": false
       },
       {
-        "src": "/portfolio/karkarona-book/022.webp",
+        "src": "/portfolio/karkarona-book/h024.webp",
         "width": 1800,
         "height": 1080,
         "animated": false
       },
       {
-        "src": "/portfolio/karkarona-book/023.webp",
+        "src": "/portfolio/karkarona-book/h025.webp",
         "width": 1800,
         "height": 1080,
         "animated": false
       },
       {
-        "src": "/portfolio/karkarona-book/024.webp",
+        "src": "/portfolio/karkarona-book/h026.webp",
         "width": 1800,
         "height": 1080,
         "animated": false
+      },
+      {
+        "src": "/portfolio/karkarona-book/h027.webp",
+        "width": 1800,
+        "height": 1080,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/karkarona-book/h028.webp",
+        "width": 1800,
+        "height": 1080,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/karkarona-book/h029.mp4",
+        "width": 1800,
+        "height": 1012,
+        "animated": true
+      },
+      {
+        "src": "https://kinescope.io/embed/xtiw3fE1is4nDHqP9AwdkB",
+        "width": 1920,
+        "height": 1080,
+        "animated": false,
+        "embed": true
       }
     ],
     "selected": false,
@@ -2890,88 +3312,306 @@
         "animated": false
       },
       {
-        "src": "/portfolio/karkarona-posters/002.mp4",
+        "src": "/portfolio/karkarona-posters/h002.mp4",
         "width": 1800,
         "height": 1200,
         "animated": true
       },
       {
-        "src": "/portfolio/karkarona-posters/003.webp",
+        "src": "/portfolio/karkarona-posters/h003.webp",
         "width": 1800,
         "height": 644,
         "animated": false
       },
       {
-        "src": "/portfolio/karkarona-posters/004.webp",
+        "src": "/portfolio/karkarona-posters/h004.webp",
         "width": 1800,
         "height": 1266,
         "animated": false
       },
       {
-        "src": "/portfolio/karkarona-posters/005.webp",
-        "width": 1800,
-        "height": 1384,
-        "animated": false
+        "src": "https://kinescope.io/embed/dcg1o8X7PqbWhWTyK44ya6",
+        "width": 1920,
+        "height": 1080,
+        "animated": false,
+        "embed": true
       },
       {
-        "src": "/portfolio/karkarona-posters/006.webp",
+        "src": "/portfolio/karkarona-posters/h006.mp4",
         "width": 1800,
-        "height": 863,
-        "animated": false
-      },
-      {
-        "src": "/portfolio/karkarona-posters/007.mp4",
-        "width": 1200,
-        "height": 1800,
+        "height": 1200,
         "animated": true
       },
       {
-        "src": "/portfolio/karkarona-posters/008.webp",
-        "width": 1152,
-        "height": 1152,
+        "src": "/portfolio/karkarona-posters/h007.webp",
+        "width": 1800,
+        "height": 862,
         "animated": false
       },
       {
-        "src": "/portfolio/karkarona-posters/009.webp",
+        "src": "/portfolio/karkarona-posters/h008.webp",
         "width": 1800,
         "height": 1384,
         "animated": false
       },
       {
-        "src": "/portfolio/karkarona-posters/010.webp",
+        "src": "/portfolio/karkarona-posters/h009.webp",
         "width": 1800,
-        "height": 863,
+        "height": 1800,
         "animated": false
       },
       {
-        "src": "/portfolio/karkarona-posters/011.webp",
+        "src": "/portfolio/karkarona-posters/h010.mp4",
+        "width": 1800,
+        "height": 1200,
+        "animated": true
+      },
+      {
+        "src": "/portfolio/karkarona-posters/h011.webp",
+        "width": 1800,
+        "height": 644,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/karkarona-posters/h012.webp",
+        "width": 1800,
+        "height": 862,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/karkarona-posters/h013.mp4",
+        "width": 1440,
+        "height": 2160,
+        "animated": true
+      },
+      {
+        "src": "/portfolio/karkarona-posters/h014.webp",
+        "width": 1800,
+        "height": 1800,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/karkarona-posters/h015.mp4",
+        "width": 1800,
+        "height": 1200,
+        "animated": true
+      },
+      {
+        "src": "/portfolio/karkarona-posters/h016.webp",
+        "width": 1800,
+        "height": 862,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/karkarona-posters/h017.webp",
+        "width": 1800,
+        "height": 1384,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/karkarona-posters/h018.webp",
+        "width": 1800,
+        "height": 1266,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/karkarona-posters/h019.mp4",
+        "width": 1800,
+        "height": 1200,
+        "animated": true
+      },
+      {
+        "src": "/portfolio/karkarona-posters/h020.webp",
+        "width": 1800,
+        "height": 862,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/karkarona-posters/h021.webp",
+        "width": 1800,
+        "height": 1264,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/karkarona-posters/h022.webp",
+        "width": 1800,
+        "height": 862,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/karkarona-posters/h023.webp",
+        "width": 1800,
+        "height": 1266,
+        "animated": false
+      },
+      {
+        "src": "https://kinescope.io/embed/3C4mUWsUBKSWbcYzHCm2Y6",
+        "width": 1920,
+        "height": 1080,
+        "animated": false,
+        "embed": true
+      },
+      {
+        "src": "/portfolio/karkarona-posters/h025.mp4",
+        "width": 1800,
+        "height": 1200,
+        "animated": true
+      },
+      {
+        "src": "/portfolio/karkarona-posters/h026.webp",
         "width": 1800,
         "height": 1308,
         "animated": false
       },
       {
-        "src": "/portfolio/karkarona-posters/012.webp",
+        "src": "/portfolio/karkarona-posters/h027.webp",
         "width": 1800,
         "height": 1308,
         "animated": false
       },
       {
-        "src": "/portfolio/karkarona-posters/013.webp",
+        "src": "/portfolio/karkarona-posters/h028.webp",
         "width": 1800,
         "height": 1308,
         "animated": false
       },
       {
-        "src": "/portfolio/karkarona-posters/014.webp",
+        "src": "/portfolio/karkarona-posters/h029.webp",
+        "width": 1800,
+        "height": 514,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/karkarona-posters/h030.webp",
+        "width": 1800,
+        "height": 1266,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/karkarona-posters/h031.mp4",
+        "width": 1800,
+        "height": 1200,
+        "animated": true
+      },
+      {
+        "src": "/portfolio/karkarona-posters/h032.webp",
+        "width": 1800,
+        "height": 862,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/karkarona-posters/h033.webp",
         "width": 1800,
         "height": 1130,
         "animated": false
       },
       {
-        "src": "/portfolio/karkarona-posters/015.webp",
+        "src": "/portfolio/karkarona-posters/h034.webp",
         "width": 1800,
-        "height": 863,
+        "height": 1266,
         "animated": false
+      },
+      {
+        "src": "/portfolio/karkarona-posters/h035.mp4",
+        "width": 1800,
+        "height": 1200,
+        "animated": true
+      },
+      {
+        "src": "/portfolio/karkarona-posters/h036.webp",
+        "width": 1800,
+        "height": 862,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/karkarona-posters/h037.mp4",
+        "width": 1800,
+        "height": 1200,
+        "animated": true
+      },
+      {
+        "src": "/portfolio/karkarona-posters/h038.webp",
+        "width": 1800,
+        "height": 696,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/karkarona-posters/h039.webp",
+        "width": 1800,
+        "height": 1198,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/karkarona-posters/h040.mp4",
+        "width": 1800,
+        "height": 1200,
+        "animated": true
+      },
+      {
+        "src": "/portfolio/karkarona-posters/h041.webp",
+        "width": 1800,
+        "height": 696,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/karkarona-posters/h042.mp4",
+        "width": 1800,
+        "height": 1200,
+        "animated": true
+      },
+      {
+        "src": "/portfolio/karkarona-posters/h043.webp",
+        "width": 1800,
+        "height": 926,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/karkarona-posters/h044.webp",
+        "width": 1800,
+        "height": 1130,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/karkarona-posters/h045.webp",
+        "width": 1800,
+        "height": 1440,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/karkarona-posters/h046.mp4",
+        "width": 1800,
+        "height": 1200,
+        "animated": true
+      },
+      {
+        "src": "/portfolio/karkarona-posters/h047.webp",
+        "width": 1600,
+        "height": 768,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/karkarona-posters/h048.webp",
+        "width": 1800,
+        "height": 1130,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/karkarona-posters/h049.webp",
+        "width": 1800,
+        "height": 1462,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/karkarona-posters/h050.mp4",
+        "width": 1800,
+        "height": 1266,
+        "animated": true
+      },
+      {
+        "src": "/portfolio/karkarona-posters/h051.mp4",
+        "width": 1800,
+        "height": 1012,
+        "animated": true
       }
     ],
     "selected": false,
@@ -3297,121 +3937,163 @@
         "animated": false
       },
       {
-        "src": "/portfolio/notis/002.webp",
+        "src": "/portfolio/notis/h002.webp",
         "width": 1800,
         "height": 1266,
         "animated": false
       },
       {
-        "src": "/portfolio/notis/003.webp",
+        "src": "/portfolio/notis/h003.webp",
         "width": 1800,
         "height": 1266,
         "animated": false
       },
       {
-        "src": "/portfolio/notis/004.webp",
+        "src": "/portfolio/notis/h004.webp",
         "width": 1800,
         "height": 1356,
         "animated": false
       },
       {
-        "src": "/portfolio/notis/005.webp",
+        "src": "/portfolio/notis/h005.webp",
         "width": 1800,
         "height": 1356,
         "animated": false
       },
       {
-        "src": "/portfolio/notis/006.webp",
+        "src": "/portfolio/notis/h006.webp",
         "width": 1800,
         "height": 1356,
         "animated": false
       },
       {
-        "src": "/portfolio/notis/007.webp",
+        "src": "/portfolio/notis/h007.webp",
         "width": 1800,
         "height": 1356,
         "animated": false
       },
       {
-        "src": "/portfolio/notis/008.webp",
+        "src": "/portfolio/notis/h008.webp",
+        "width": 1800,
+        "height": 864,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/notis/h009.webp",
         "width": 1800,
         "height": 1356,
         "animated": false
       },
       {
-        "src": "/portfolio/notis/009.webp",
+        "src": "/portfolio/notis/h010.webp",
         "width": 1800,
         "height": 1356,
         "animated": false
       },
       {
-        "src": "/portfolio/notis/010.webp",
+        "src": "/portfolio/notis/h011.webp",
         "width": 1800,
         "height": 1356,
         "animated": false
       },
       {
-        "src": "/portfolio/notis/011.webp",
+        "src": "/portfolio/notis/h012.webp",
         "width": 1800,
         "height": 1356,
         "animated": false
       },
       {
-        "src": "/portfolio/notis/012.webp",
+        "src": "/portfolio/notis/h013.webp",
         "width": 1800,
         "height": 1356,
         "animated": false
       },
       {
-        "src": "/portfolio/notis/013.webp",
+        "src": "/portfolio/notis/h014.webp",
         "width": 1800,
         "height": 1356,
         "animated": false
       },
       {
-        "src": "/portfolio/notis/014.webp",
+        "src": "/portfolio/notis/h015.webp",
         "width": 1800,
         "height": 1356,
         "animated": false
       },
       {
-        "src": "/portfolio/notis/015.webp",
+        "src": "/portfolio/notis/h016.webp",
         "width": 1800,
         "height": 1356,
         "animated": false
       },
       {
-        "src": "/portfolio/notis/016.webp",
+        "src": "/portfolio/notis/h017.webp",
         "width": 1800,
         "height": 1356,
         "animated": false
       },
       {
-        "src": "/portfolio/notis/017.webp",
+        "src": "/portfolio/notis/h018.webp",
         "width": 1800,
         "height": 1356,
         "animated": false
       },
       {
-        "src": "/portfolio/notis/018.webp",
+        "src": "/portfolio/notis/h019.webp",
         "width": 1800,
         "height": 1356,
         "animated": false
       },
       {
-        "src": "/portfolio/notis/019.webp",
+        "src": "/portfolio/notis/h020.webp",
         "width": 1800,
         "height": 1356,
         "animated": false
       },
       {
-        "src": "/portfolio/notis/020.webp",
+        "src": "/portfolio/notis/h021.webp",
         "width": 1800,
         "height": 1356,
         "animated": false
       },
       {
-        "src": "/portfolio/notis/021.webp",
+        "src": "/portfolio/notis/h022.webp",
+        "width": 1800,
+        "height": 1356,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/notis/h023.webp",
+        "width": 1800,
+        "height": 1356,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/notis/h024.webp",
+        "width": 1800,
+        "height": 1356,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/notis/h025.webp",
+        "width": 1800,
+        "height": 1356,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/notis/h026.webp",
+        "width": 1800,
+        "height": 1356,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/notis/h027.webp",
+        "width": 1800,
+        "height": 1356,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/notis/h028.webp",
         "width": 1800,
         "height": 1356,
         "animated": false
@@ -3446,49 +4128,74 @@
         "animated": false
       },
       {
-        "src": "/portfolio/nasledili/002.webp",
+        "src": "https://kinescope.io/embed/78WACUu4QP74kDg5h8XvtS",
+        "width": 1920,
+        "height": 1080,
+        "animated": false,
+        "embed": true
+      },
+      {
+        "src": "/portfolio/nasledili/h003.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/nasledili/003.webp",
+        "src": "/portfolio/nasledili/h004.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/nasledili/004.webp",
+        "src": "/portfolio/nasledili/h005.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/nasledili/005.webp",
+        "src": "/portfolio/nasledili/h006.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/nasledili/006.webp",
+        "src": "/portfolio/nasledili/h007.webp",
+        "width": 1800,
+        "height": 1038,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/nasledili/h008.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/nasledili/007.webp",
+        "src": "/portfolio/nasledili/h009.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/nasledili/008.webp",
+        "src": "/portfolio/nasledili/h010.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/nasledili/009.webp",
+        "src": "/portfolio/nasledili/h011.webp",
+        "width": 1800,
+        "height": 1200,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/nasledili/h012.webp",
+        "width": 1800,
+        "height": 1200,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/nasledili/h013.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
@@ -3523,106 +4230,136 @@
         "animated": false
       },
       {
-        "src": "/portfolio/dveri-i-kokosy/002.webp",
+        "src": "/portfolio/dveri-i-kokosy/h002.webp",
         "width": 1800,
         "height": 1266,
         "animated": false
       },
       {
-        "src": "/portfolio/dveri-i-kokosy/003.mp4",
+        "src": "/portfolio/dveri-i-kokosy/h003.mp4",
         "width": 1800,
         "height": 1012,
         "animated": true
       },
       {
-        "src": "/portfolio/dveri-i-kokosy/004.webp",
-        "width": 1800,
-        "height": 1266,
-        "animated": false
-      },
-      {
-        "src": "/portfolio/dveri-i-kokosy/005.webp",
+        "src": "/portfolio/dveri-i-kokosy/h004.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/dveri-i-kokosy/006.webp",
+        "src": "/portfolio/dveri-i-kokosy/h005.webp",
         "width": 1800,
         "height": 1200,
         "animated": false
       },
       {
-        "src": "/portfolio/dveri-i-kokosy/007.webp",
+        "src": "/portfolio/dveri-i-kokosy/h006.webp",
         "width": 1800,
         "height": 1266,
         "animated": false
       },
       {
-        "src": "/portfolio/dveri-i-kokosy/008.webp",
+        "src": "/portfolio/dveri-i-kokosy/h007.webp",
         "width": 1800,
         "height": 1266,
         "animated": false
       },
       {
-        "src": "/portfolio/dveri-i-kokosy/009.webp",
+        "src": "/portfolio/dveri-i-kokosy/h008.webp",
         "width": 1800,
         "height": 1266,
         "animated": false
       },
       {
-        "src": "/portfolio/dveri-i-kokosy/010.webp",
+        "src": "/portfolio/dveri-i-kokosy/h009.webp",
         "width": 1800,
         "height": 1266,
         "animated": false
       },
       {
-        "src": "/portfolio/dveri-i-kokosy/011.webp",
+        "src": "/portfolio/dveri-i-kokosy/h010.webp",
         "width": 1800,
         "height": 1266,
         "animated": false
       },
       {
-        "src": "/portfolio/dveri-i-kokosy/012.webp",
+        "src": "/portfolio/dveri-i-kokosy/h011.webp",
         "width": 1800,
         "height": 1266,
         "animated": false
       },
       {
-        "src": "/portfolio/dveri-i-kokosy/013.webp",
+        "src": "/portfolio/dveri-i-kokosy/h012.webp",
         "width": 1800,
         "height": 1266,
         "animated": false
       },
       {
-        "src": "/portfolio/dveri-i-kokosy/014.webp",
+        "src": "/portfolio/dveri-i-kokosy/h013.webp",
         "width": 1800,
         "height": 1266,
         "animated": false
       },
       {
-        "src": "/portfolio/dveri-i-kokosy/015.webp",
+        "src": "/portfolio/dveri-i-kokosy/h014.webp",
         "width": 1800,
         "height": 1266,
         "animated": false
       },
       {
-        "src": "/portfolio/dveri-i-kokosy/016.webp",
+        "src": "/portfolio/dveri-i-kokosy/h015.webp",
         "width": 1800,
         "height": 1266,
         "animated": false
       },
       {
-        "src": "/portfolio/dveri-i-kokosy/017.webp",
+        "src": "/portfolio/dveri-i-kokosy/h016.webp",
         "width": 1800,
         "height": 1266,
         "animated": false
       },
       {
-        "src": "/portfolio/dveri-i-kokosy/018.webp",
+        "src": "/portfolio/dveri-i-kokosy/h017.webp",
         "width": 1800,
         "height": 1266,
         "animated": false
+      },
+      {
+        "src": "/portfolio/dveri-i-kokosy/h018.webp",
+        "width": 1800,
+        "height": 1266,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/dveri-i-kokosy/h019.webp",
+        "width": 1800,
+        "height": 1266,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/dveri-i-kokosy/h020.webp",
+        "width": 1800,
+        "height": 1266,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/dveri-i-kokosy/h021.webp",
+        "width": 1800,
+        "height": 1266,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/dveri-i-kokosy/h022.webp",
+        "width": 1800,
+        "height": 1266,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/dveri-i-kokosy/h023.mp4",
+        "width": 1800,
+        "height": 1012,
+        "animated": true
       }
     ],
     "selected": false,
@@ -3696,6 +4433,619 @@
     "number": 33,
     "x": 3380,
     "y": 6900,
+    "color": "#daff02"
+  },
+  {
+    "id": "titry-konec-sveta",
+    "title": {
+      "ru": "Титры к фильму «Проект „Конец света“»",
+      "en": "Opening Credits for Project Hail Mary"
+    },
+    "description": {
+      "ru": "Анимированные титры к фильму «Проект „Конец света“». Логотип собирается из точек, похожих на астрофагов — пожирателей звёзд, а сфера становится главным образом: титры связывают начало фильма с пробуждением героя и полётом последней надежды.",
+      "en": "Animated credits for Project Hail Mary. The logo assembles from dots that echo the star-eating astrophage, and the sphere becomes the central image, linking the opening of the film to the hero's awakening and the last-hope flight."
+    },
+    "categories": [
+      "motion",
+      "special-project"
+    ],
+    "sourceUrl": "https://hsedesign.ru/project/titry-k-filmu-proekt-konec-svet-c77aef57da2f40b2b5ec2991710b793c",
+    "cover": "/portfolio/titry-konec-sveta/001.webp",
+    "images": [
+      {
+        "src": "/portfolio/titry-konec-sveta/001.webp",
+        "width": 1140,
+        "height": 1600,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/titry-konec-sveta/h002.mp4",
+        "width": 1800,
+        "height": 376,
+        "animated": true
+      },
+      {
+        "src": "/portfolio/titry-konec-sveta/h003.mp4",
+        "width": 1800,
+        "height": 376,
+        "animated": true
+      },
+      {
+        "src": "https://kinescope.io/embed/5QA1UEpGBHjTFqwjqUWh9w",
+        "width": 1920,
+        "height": 1080,
+        "animated": false,
+        "embed": true
+      },
+      {
+        "src": "/portfolio/titry-konec-sveta/h005.mp4",
+        "width": 1800,
+        "height": 376,
+        "animated": true
+      },
+      {
+        "src": "https://kinescope.io/embed/pDnSB1ukjCmb6JjKQ5y16c",
+        "width": 1920,
+        "height": 1080,
+        "animated": false,
+        "embed": true
+      },
+      {
+        "src": "/portfolio/titry-konec-sveta/h007.mp4",
+        "width": 1800,
+        "height": 376,
+        "animated": true
+      },
+      {
+        "src": "/portfolio/titry-konec-sveta/h008.mp4",
+        "width": 1800,
+        "height": 562,
+        "animated": true
+      },
+      {
+        "src": "/portfolio/titry-konec-sveta/h009.mp4",
+        "width": 1190,
+        "height": 670,
+        "animated": true
+      },
+      {
+        "src": "/portfolio/titry-konec-sveta/h010.mp4",
+        "width": 1210,
+        "height": 504,
+        "animated": true
+      },
+      {
+        "src": "https://kinescope.io/embed/8XVUads52CnTjvFwQELoGz",
+        "width": 1920,
+        "height": 1080,
+        "animated": false,
+        "embed": true
+      },
+      {
+        "src": "/portfolio/titry-konec-sveta/h012.mp4",
+        "width": 1800,
+        "height": 376,
+        "animated": true
+      },
+      {
+        "src": "/portfolio/titry-konec-sveta/h013.mp4",
+        "width": 1614,
+        "height": 908,
+        "animated": true
+      },
+      {
+        "src": "/portfolio/titry-konec-sveta/h014.webp",
+        "width": 1800,
+        "height": 1012,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/titry-konec-sveta/h015.webp",
+        "width": 1800,
+        "height": 1012,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/titry-konec-sveta/h016.webp",
+        "width": 1800,
+        "height": 1012,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/titry-konec-sveta/h017.webp",
+        "width": 1800,
+        "height": 1012,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/titry-konec-sveta/h018.webp",
+        "width": 1800,
+        "height": 1012,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/titry-konec-sveta/h019.webp",
+        "width": 1800,
+        "height": 1012,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/titry-konec-sveta/h020.mp4",
+        "width": 1536,
+        "height": 864,
+        "animated": true
+      },
+      {
+        "src": "/portfolio/titry-konec-sveta/h021.webp",
+        "width": 1800,
+        "height": 1012,
+        "animated": false
+      },
+      {
+        "src": "https://kinescope.io/embed/bbDC9mb83JAWcWFQkT9z1N",
+        "width": 1920,
+        "height": 1080,
+        "animated": false,
+        "embed": true
+      },
+      {
+        "src": "/portfolio/titry-konec-sveta/h023.mp4",
+        "width": 1800,
+        "height": 376,
+        "animated": true
+      },
+      {
+        "src": "https://kinescope.io/embed/fC271FXaV9u3Bf5P9tTGfe",
+        "width": 1920,
+        "height": 1080,
+        "animated": false,
+        "embed": true
+      }
+    ],
+    "selected": false,
+    "number": 34,
+    "x": 900,
+    "y": 8150,
+    "color": "#fe572a"
+  },
+  {
+    "id": "posleobraz",
+    "title": {
+      "ru": "Послеобраз / дизайн выставки",
+      "en": "Afterimage / Exhibition Design"
+    },
+    "description": {
+      "ru": "Дизайн выставки о послеобразе — изображении, которое остаётся на сетчатке после того, как исчезло. Так и фильм оставляет у зрителя чувства, которые нельзя выразить словами. Айдентика, эксплейнер и носители выставки.",
+      "en": "Exhibition design about the afterimage — a picture that stays on the retina after it disappears, just as a film leaves feelings that words cannot hold. Identity, explainer and exhibition media."
+    },
+    "categories": [
+      "exhibition",
+      "identity"
+    ],
+    "sourceUrl": "https://hsedesign.ru/project/posleobraz-dizajn-vystavki-6e8429079e094d73af814ad18c8e2e3d",
+    "cover": "/portfolio/posleobraz/001.webp",
+    "images": [
+      {
+        "src": "/portfolio/posleobraz/001.webp",
+        "width": 1140,
+        "height": 1600,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/posleobraz/h002.mp4",
+        "width": 1800,
+        "height": 468,
+        "animated": true
+      },
+      {
+        "src": "/portfolio/posleobraz/h003.mp4",
+        "width": 1800,
+        "height": 468,
+        "animated": true
+      },
+      {
+        "src": "/portfolio/posleobraz/h004.mp4",
+        "width": 1800,
+        "height": 938,
+        "animated": true
+      },
+      {
+        "src": "/portfolio/posleobraz/h005.mp4",
+        "width": 1800,
+        "height": 468,
+        "animated": true
+      },
+      {
+        "src": "https://kinescope.io/embed/qqMF9U8jUhjoQoeQLQrKs4",
+        "width": 1920,
+        "height": 1080,
+        "animated": false,
+        "embed": true
+      },
+      {
+        "src": "/portfolio/posleobraz/h007.webp",
+        "width": 1800,
+        "height": 678,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/posleobraz/h008.webp",
+        "width": 1800,
+        "height": 726,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/posleobraz/h009.webp",
+        "width": 1800,
+        "height": 726,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/posleobraz/h010.mp4",
+        "width": 1440,
+        "height": 750,
+        "animated": true
+      },
+      {
+        "src": "/portfolio/posleobraz/h011.webp",
+        "width": 1800,
+        "height": 874,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/posleobraz/h012.webp",
+        "width": 1800,
+        "height": 888,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/posleobraz/h013.webp",
+        "width": 1800,
+        "height": 874,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/posleobraz/h014.webp",
+        "width": 1800,
+        "height": 1012,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/posleobraz/h015.mp4",
+        "width": 1800,
+        "height": 938,
+        "animated": true
+      },
+      {
+        "src": "/portfolio/posleobraz/h016.webp",
+        "width": 1800,
+        "height": 262,
+        "animated": false
+      }
+    ],
+    "selected": false,
+    "number": 35,
+    "x": 1950,
+    "y": 8420,
+    "color": "#6c5bc7"
+  },
+  {
+    "id": "kudryavchik",
+    "title": {
+      "ru": "Кудрявчик — леттеринг для кафе-барбершопа",
+      "en": "Kudryavchik — Lettering for a Dog Café & Barber"
+    },
+    "description": {
+      "ru": "Леттеринги для дог-френдли кафе-барбершопа «Кудрявчик», где питомцу делают причесончик и вкусно кормят. Игривые авторские надписи и анимированные леттеринги для бренда.",
+      "en": "Lettering for Kudryavchik, a dog-friendly café and barbershop where pets get a haircut and a treat. Playful custom lettering and animated type for the brand."
+    },
+    "categories": [
+      "lettering",
+      "identity",
+      "branding"
+    ],
+    "sourceUrl": "https://hsedesign.ru/project/kudryavchik-682f70886b134af5b2b42708b876995b",
+    "cover": "/portfolio/kudryavchik/001.webp",
+    "images": [
+      {
+        "src": "/portfolio/kudryavchik/001.webp",
+        "width": 1140,
+        "height": 1600,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/kudryavchik/h002.mp4",
+        "width": 1800,
+        "height": 578,
+        "animated": true
+      },
+      {
+        "src": "/portfolio/kudryavchik/h003.webp",
+        "width": 1800,
+        "height": 1266,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/kudryavchik/h004.mp4",
+        "width": 1800,
+        "height": 578,
+        "animated": true
+      },
+      {
+        "src": "/portfolio/kudryavchik/h005.webp",
+        "width": 1800,
+        "height": 1266,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/kudryavchik/h006.webp",
+        "width": 1800,
+        "height": 1266,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/kudryavchik/h007.webp",
+        "width": 1800,
+        "height": 1266,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/kudryavchik/h008.webp",
+        "width": 1800,
+        "height": 1266,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/kudryavchik/h009.webp",
+        "width": 1800,
+        "height": 538,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/kudryavchik/h010.mp4",
+        "width": 1422,
+        "height": 1000,
+        "animated": true
+      },
+      {
+        "src": "/portfolio/kudryavchik/h011.webp",
+        "width": 1800,
+        "height": 684,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/kudryavchik/h012.webp",
+        "width": 1800,
+        "height": 1266,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/kudryavchik/h013.mp4",
+        "width": 1344,
+        "height": 904,
+        "animated": true
+      },
+      {
+        "src": "/portfolio/kudryavchik/h014.webp",
+        "width": 1800,
+        "height": 1266,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/kudryavchik/h015.webp",
+        "width": 1800,
+        "height": 1266,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/kudryavchik/h016.mp4",
+        "width": 1800,
+        "height": 854,
+        "animated": true
+      },
+      {
+        "src": "/portfolio/kudryavchik/h017.webp",
+        "width": 1800,
+        "height": 1266,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/kudryavchik/h018.webp",
+        "width": 1800,
+        "height": 930,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/kudryavchik/h019.webp",
+        "width": 1800,
+        "height": 1266,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/kudryavchik/h020.webp",
+        "width": 1800,
+        "height": 794,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/kudryavchik/h021.mp4",
+        "width": 1172,
+        "height": 722,
+        "animated": true
+      },
+      {
+        "src": "/portfolio/kudryavchik/h022.mp4",
+        "width": 1800,
+        "height": 850,
+        "animated": true
+      },
+      {
+        "src": "/portfolio/kudryavchik/h023.webp",
+        "width": 1800,
+        "height": 1266,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/kudryavchik/h024.mp4",
+        "width": 1800,
+        "height": 856,
+        "animated": true
+      },
+      {
+        "src": "/portfolio/kudryavchik/h025.webp",
+        "width": 1800,
+        "height": 1266,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/kudryavchik/h026.webp",
+        "width": 1800,
+        "height": 648,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/kudryavchik/h027.webp",
+        "width": 1800,
+        "height": 808,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/kudryavchik/h028.webp",
+        "width": 1800,
+        "height": 808,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/kudryavchik/h029.webp",
+        "width": 1800,
+        "height": 808,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/kudryavchik/h030.webp",
+        "width": 1800,
+        "height": 808,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/kudryavchik/h031.webp",
+        "width": 1800,
+        "height": 1266,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/kudryavchik/h032.mp4",
+        "width": 1800,
+        "height": 536,
+        "animated": true
+      },
+      {
+        "src": "/portfolio/kudryavchik/h033.mp4",
+        "width": 1408,
+        "height": 910,
+        "animated": true
+      },
+      {
+        "src": "/portfolio/kudryavchik/h034.webp",
+        "width": 1800,
+        "height": 514,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/kudryavchik/h035.webp",
+        "width": 1800,
+        "height": 1266,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/kudryavchik/h036.webp",
+        "width": 1800,
+        "height": 1266,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/kudryavchik/h037.webp",
+        "width": 1800,
+        "height": 1266,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/kudryavchik/h038.webp",
+        "width": 1800,
+        "height": 1266,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/kudryavchik/h039.webp",
+        "width": 1800,
+        "height": 1266,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/kudryavchik/h040.webp",
+        "width": 1800,
+        "height": 1266,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/kudryavchik/h041.webp",
+        "width": 1800,
+        "height": 536,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/kudryavchik/h042.webp",
+        "width": 1800,
+        "height": 1122,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/kudryavchik/h043.mp4",
+        "width": 992,
+        "height": 698,
+        "animated": true
+      },
+      {
+        "src": "/portfolio/kudryavchik/h044.webp",
+        "width": 1800,
+        "height": 1266,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/kudryavchik/h045.webp",
+        "width": 1800,
+        "height": 1266,
+        "animated": false
+      },
+      {
+        "src": "/portfolio/kudryavchik/h046.mp4",
+        "width": 1800,
+        "height": 634,
+        "animated": true
+      },
+      {
+        "src": "/portfolio/kudryavchik/h047.mp4",
+        "width": 1600,
+        "height": 1124,
+        "animated": true
+      },
+      {
+        "src": "/portfolio/kudryavchik/h048.mp4",
+        "width": 1800,
+        "height": 1266,
+        "animated": true
+      },
+      {
+        "src": "/portfolio/kudryavchik/h049.webp",
+        "width": 1800,
+        "height": 1266,
+        "animated": false
+      }
+    ],
+    "selected": false,
+    "number": 36,
+    "x": 2950,
+    "y": 8150,
     "color": "#daff02"
   }
 ]

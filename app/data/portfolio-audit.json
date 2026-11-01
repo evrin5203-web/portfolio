@@ -1,10 +1,10 @@
 {
-  "totalProjects": 33,
-  "totalImages": 481,
+  "totalProjects": 36,
+  "totalImages": 691,
   "projects": [
     {
       "id": "rassol",
-      "images": 30
+      "images": 41
     },
     {
       "id": "dvizhenie-ulits",
@@ -12,7 +12,7 @@
     },
     {
       "id": "onda-ice-cream-packaging",
-      "images": 20
+      "images": 34
     },
     {
       "id": "guide-find-a-groom",
@@ -28,7 +28,7 @@
     },
     {
       "id": "onda-spoon",
-      "images": 8
+      "images": 10
     },
     {
       "id": "fashion-store-summer",
@@ -40,11 +40,11 @@
     },
     {
       "id": "fort-1-stein",
-      "images": 9
+      "images": 13
     },
     {
       "id": "pojmat-pero",
-      "images": 18
+      "images": 23
     },
     {
       "id": "golden-apple-open-your-summer",
@@ -64,11 +64,11 @@
     },
     {
       "id": "tochka-na-karte-kerch",
-      "images": 14
+      "images": 22
     },
     {
       "id": "multiverse-pop-culture",
-      "images": 15
+      "images": 26
     },
     {
       "id": "null-prekrasnoe-daleko",
@@ -80,7 +80,7 @@
     },
     {
       "id": "molodezhny-sovet-petrograd",
-      "images": 10
+      "images": 18
     },
     {
       "id": "studdy-task-tracker",
@@ -100,11 +100,11 @@
     },
     {
       "id": "karkarona-book",
-      "images": 24
+      "images": 30
     },
     {
       "id": "karkarona-posters",
-      "images": 15
+      "images": 51
     },
     {
       "id": "poezdka-v-derevnyu",
@@ -120,19 +120,31 @@
     },
     {
       "id": "notis",
-      "images": 21
+      "images": 28
     },
     {
       "id": "nasledili",
-      "images": 9
+      "images": 13
     },
     {
       "id": "dveri-i-kokosy",
-      "images": 18
+      "images": 23
     },
     {
       "id": "snimki-band",
       "images": 7
+    },
+    {
+      "id": "titry-konec-sveta",
+      "images": 24
+    },
+    {
+      "id": "posleobraz",
+      "images": 16
+    },
+    {
+      "id": "kudryavchik",
+      "images": 49
     }
   ]
 }
