@@ -181,7 +181,7 @@ button:focus-visible, a:focus-visible { outline: 1px solid var(--ink); outline-o
 .cover figcaption strong { font-family: var(--serif); font-size: 26px; font-weight: 400; line-height: .98; }
 
 .panel { position: fixed; z-index: 90; inset: 0; overflow: auto; padding: 120px 5vw 56px; background: var(--paper); }
-.panel-close { position: fixed; z-index: 2; top: 36px; right: 4.6vw; font-family: var(--pixel); font-size: 12px; }
+.panel-close { position: fixed; z-index: 5; top: 28px; right: 4.6vw; padding: 9px 12px; background: var(--paper); font-family: var(--pixel); font-size: 12px; }
 .panel-heading p, .text-panel > p { margin: 0 0 8px; font-family: var(--pixel); font-size: 11px; }
 .panel-heading h2, .text-panel h2 { margin: 0; font-family: var(--serif); font-size: clamp(72px,10vw,154px); font-weight: 400; line-height: .84; letter-spacing: -.04em; }
 .selected-showcase { max-width: 1600px; margin: 0 auto; }
