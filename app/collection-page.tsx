@@ -14,15 +14,15 @@ const projects = projectData as unknown as Project[];
 // Подборка «Упаковка»: проекты и кадры (номера картинок в галерее проекта, с 1).
 const packaging: Array<{ id: string; pick: number[]; tag: Record<Language, string> }> = [
   { id: "onda-ice-cream-packaging", pick: [16, 5, 12, 18, 23, 32, 10], tag: { ru: "мороженое · линейка вкусов", en: "ice cream · flavour range" } },
-  { id: "office-glow", pick: [9, 7, 11, 12], tag: { ru: "подарочный набор для офиса", en: "office gift box" } },
   { id: "khvost-norm", pick: [9, 12, 15, 16], tag: { ru: "корм для кошек и собак", en: "cat & dog food" } },
   { id: "etlon-eto-znak", pick: [6, 7, 5, 10], tag: { ru: "стаканы и капхолдеры для кофейни", en: "coffee cups & sleeves" } },
+  { id: "office-glow", pick: [9, 7, 11, 12], tag: { ru: "подарочный набор для офиса", en: "office gift box" } },
 ];
 
 const copy = {
   ru: {
     title: "Дизайн упаковки — избранные проекты | Ангелина Болгова",
-    description: "Избранные проекты Ангелины Болговой по дизайну упаковки: мороженое ONDA, Office Glow, корм «Хвост НОРМ», стаканы Etlon Coffee. Заказать дизайн упаковки — Telegram @phangelgelya.",
+    description: "Избранные проекты Ангелины Болговой по дизайну упаковки: мороженое ONDA, корм «Хвост НОРМ», стаканы Etlon Coffee, Office Glow. Заказать дизайн упаковки — Telegram @phangelgelya.",
     kicker: "ИЗБРАННОЕ / УПАКОВКА",
     heading: "Упаковка",
     lead: "Упаковка, которую хочется взять с полки: характерная графика, система для целой линейки и продуманные детали — от этикетки до витрины.",
@@ -37,7 +37,7 @@ const copy = {
   },
   en: {
     title: "Packaging design — selected projects | Angelina Bolgova",
-    description: "Selected packaging design by Angelina Bolgova: ONDA ice cream, Office Glow, Khvost NORM pet food, Etlon Coffee cups. Commissions — Telegram @phangelgelya.",
+    description: "Selected packaging design by Angelina Bolgova: ONDA ice cream, Khvost NORM pet food, Etlon Coffee cups, Office Glow. Commissions — Telegram @phangelgelya.",
     kicker: "SELECTED / PACKAGING",
     heading: "Packaging",
     lead: "Packaging you want to pick up from the shelf: distinctive graphics, a system for the whole range and considered details — from the label to the shop display.",
