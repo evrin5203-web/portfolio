@@ -11,6 +11,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const pages: MetadataRoute.Sitemap = [
     { url: `${base}/`, lastModified: now, changeFrequency: "monthly", priority: 1, alternates: { languages: { ru: `${base}/`, en: `${base}/en/` } } },
     { url: `${base}/en/`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/packaging/`, lastModified: now, changeFrequency: "monthly", priority: 0.9, alternates: { languages: { ru: `${base}/packaging/`, en: `${base}/en/packaging/` } } },
+    { url: `${base}/en/packaging/`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
   ];
   for (const project of projectData as Array<{ id: string }>) {
     pages.push({ url: `${base}/projects/${project.id}/`, lastModified: now, changeFrequency: "yearly", priority: 0.7, alternates: { languages: { ru: `${base}/projects/${project.id}/`, en: `${base}/en/projects/${project.id}/` } } });
