@@ -27,8 +27,8 @@ export function projectMetadata(id: string, language: "ru" | "en"): Metadata {
   const ru = language === "ru";
   const kinds = categoryNames(project, language).join(", ").toLowerCase();
   const title = ru
-    ? `${project.title.ru} | Ангелина Болгова — дизайнер`
-    : `${project.title.en} | Angelina Bolgova — designer`;
+    ? `${project.title.ru} | Ангелина Болгова — дизайнер`
+    : `${project.title.en} | Angelina Bolgova — designer`;
   const description = `${project.description[language]} ${ru ? "Категории" : "Categories"}: ${kinds}.`
   const path = `${basePath}${ru ? "" : "/en"}/projects/${project.id}/`;
   const cover = project.images.find((image) => image.src === project.cover);
@@ -75,9 +75,9 @@ export function personJsonLd(language: "ru" | "en") {
     "@type": "Person",
     name: ru ? "Ангелина Болгова" : "Angelina Bolgova",
     alternateName: ru ? ["Angelina Bolgova", "Ангелина Болгова дизайнер"] : ["Ангелина Болгова"],
-    jobTitle: ru ? "Графический дизайнер и арт-директор" : "Graphic designer and art director",
+    jobTitle: ru ? "Графический дизайнер и арт-директор" : "Graphic designer and art director",
     description: ru
-      ? "Дизайнер и арт-директор: айдентика и брендинг, упаковка, леттеринг, постеры, книги."
+      ? "Дизайнер и арт-директор: айдентика и брендинг, упаковка, леттеринг, постеры, книги."
       : "Designer and art director: brand identity, packaging, lettering, posters, books.",
     url: `${siteOrigin}${basePath}${ru ? "/" : "/en/"}`,
     image: `${siteOrigin}${basePath}/portfolio/rassol/001.webp`,

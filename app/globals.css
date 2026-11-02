@@ -301,8 +301,6 @@ button:focus-visible, a:focus-visible { outline: 1px solid var(--ink); outline-o
 @media (pointer: fine) {
   body:has(.project-view), body:has(.project-view) button, body:has(.project-view) a { cursor: auto !important; }
   body:has(.project-view) .custom-cursor { display: none; }
-  html:has(.collection-page), body:has(.collection-page), body:has(.collection-page) * { cursor: auto !important; }
-  body:has(.collection-page) a, body:has(.collection-page) button { cursor: pointer !important; }
 }
 
 @media (max-width: 820px) {
@@ -390,6 +388,7 @@ button:focus-visible, a:focus-visible { outline: 1px solid var(--ink); outline-o
 .collection-kicker { margin: 0 0 14px; font-family: var(--pixel); font-size: 11px; text-transform: uppercase; }
 .collection-hero h1 { margin: 0; font-family: var(--serif); font-size: clamp(96px,17vw,260px); font-weight: 400; line-height: .78; letter-spacing: -.05em; }
 .lang-ru .collection-hero h1 { line-height: .9; letter-spacing: -.03em; }
+.lang-en .collection-hero h1 { padding-bottom: .3em; }
 .collection-lead { max-width: 640px; margin: 44px 0 0; font-size: 21px; line-height: 1.35; }
 .collection-toc { margin: 52px 0 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 0 24px; }
 .collection-toc a { display: grid; gap: 8px; padding: 14px 0; border-top: 1px solid var(--ink); font-family: var(--serif); font-size: 24px; line-height: 1.05; text-decoration: none; }

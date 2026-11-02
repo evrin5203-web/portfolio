@@ -8,11 +8,11 @@ export const siteOrigin = "https://evrin5203-web.github.io";
 export function pageMetadata(language: "ru" | "en"): Metadata {
   const ru = language === "ru";
   const title = ru
-    ? "Ангелина Болгова — графический дизайнер и арт-директор, портфолио"
-    : "Angelina Bolgova — graphic designer & art director, portfolio";
+    ? "Ангелина Болгова — графический дизайнер и арт-директор, портфолио"
+    : "Angelina Bolgova — graphic designer & art director, portfolio";
   const description = ru
-    ? "Ангелина Болгова — портфолио дизайнера: айдентика и брендинг, дизайн упаковки, леттеринг, постеры, книги. Заказать дизайн — Telegram @phangelgelya."
-    : "Portfolio of Angelina Bolgova: brand identity, packaging, lettering, posters and books. Commissions — Telegram @phangelgelya.";
+    ? "Ангелина Болгова — портфолио дизайнера: айдентика и брендинг, дизайн упаковки, леттеринг, постеры, книги. Заказать дизайн — Telegram @phangelgelya."
+    : "Portfolio of Angelina Bolgova: brand identity, packaging, lettering, posters and books. Commissions — Telegram @phangelgelya.";
   return {
     metadataBase: new URL(siteOrigin),
     title,
