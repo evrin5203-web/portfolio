@@ -729,8 +729,14 @@
       "branding"
     ],
     "sourceUrl": "https://hse.space/hseincomm/project/merch-dlya-03cb77b5fb194afcb4d7bc9e5e41d52f",
-    "cover": "/portfolio/esenin-museum-merch/001.webp",
+    "cover": "/portfolio/esenin-museum-merch/cover-hse.webp",
     "images": [
+      {
+        "src": "/portfolio/esenin-museum-merch/cover-hse.webp",
+        "width": 1140,
+        "height": 1600,
+        "animated": false
+      },
       {
         "src": "/portfolio/esenin-museum-merch/001.webp",
         "width": 1800,
