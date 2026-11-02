@@ -187,6 +187,23 @@ for (const entry of config.add || []) {
   if (existing) Object.assign(existing, record); else projects.push(record);
 }
 
+// covers — меняет только обложку проекта на обложку из ВШЭ (titleImages), галерею не трогает.
+for (const entry of config.covers || []) {
+  const project = projects.find((p) => p.id === entry.id);
+  if (!project) { console.warn(`no project ${entry.id}`); continue; }
+  const { cover } = await collectMedia(entry.hse);
+  if (!cover) { console.warn(`no HSE cover for ${entry.id}`); continue; }
+  const outDir = join(ROOT, "public/portfolio", entry.id);
+  const thumbDir = join(ROOT, "public/portfolio-thumbs", entry.id);
+  mkdirSync(outDir, { recursive: true });
+  mkdirSync(thumbDir, { recursive: true });
+  const made = await processFile(cover, "cover-hse", outDir, thumbDir, true);
+  const src = `/portfolio/${entry.id}/${made.name}`;
+  project.images = [{ src, width: made.width, height: made.height, animated: made.animated }, ...project.images.filter((image) => image.src !== src)];
+  project.cover = src;
+  console.log(`cover ${entry.id}: ${made.name} ${made.width}x${made.height}`);
+}
+
 writeFileSync(projectsPath, JSON.stringify(projects, null, 2) + "\n");
 const audit = { totalProjects: projects.length, totalImages: projects.reduce((n, p) => n + p.images.length, 0), projects: projects.map((p) => ({ id: p.id, images: p.images.length })) };
 writeFileSync(join(ROOT, "app/data/portfolio-audit.json"), JSON.stringify(audit, null, 2) + "\n");
