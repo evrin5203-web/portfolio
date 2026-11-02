@@ -301,6 +301,8 @@ button:focus-visible, a:focus-visible { outline: 1px solid var(--ink); outline-o
 @media (pointer: fine) {
   body:has(.project-view), body:has(.project-view) button, body:has(.project-view) a { cursor: auto !important; }
   body:has(.project-view) .custom-cursor { display: none; }
+  html:has(.collection-page), body:has(.collection-page), body:has(.collection-page) * { cursor: auto !important; }
+  body:has(.collection-page) a, body:has(.collection-page) button { cursor: pointer !important; }
 }
 
 @media (max-width: 820px) {
